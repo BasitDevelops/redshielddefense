@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
+import { MdChatBubbleOutline, MdMailOutline } from "react-icons/md";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 
 const contact_data = [
   {
     id: 1,
-    icon: "flaticon-chat",
+    icon: <MdChatBubbleOutline />,
     title: "Chat With Us",
     des: (
       <>
@@ -16,7 +18,7 @@ const contact_data = [
   },
   {
     id: 2,
-    icon: "flaticon-open-mail",
+    icon: <MdMailOutline />,
     title: "Send Us an Email",
     des: (
       <>
@@ -28,7 +30,7 @@ const contact_data = [
   },
   {
     id: 3,
-    icon: "flaticon-open-mail",
+    icon: <TbDeviceLandlinePhone />,
     title: "Make a Call",
     des: (
       <>
@@ -52,9 +54,7 @@ const ContactArea = () => {
                 className="col-xl-3 col-lg-4 col-md-6 col-sm-8"
               >
                 <div className="contact-info-item text-center">
-                  <div className="contact-info-icon">
-                    <i className={item.icon}></i>
-                  </div>
+                  <div className="contact-info-icon">{item.icon}</div>
                   <div className="contact-info-content">
                     <h5 className="title">{item.title}</h5>
                     <p>{item.des}</p>

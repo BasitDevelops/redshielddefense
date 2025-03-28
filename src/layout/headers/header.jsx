@@ -28,7 +28,7 @@ const Header = ({ style }) => {
         >
           <div className="container custom-container">
             <div className="row">
-              <div className="col-12">
+              <div className="col-12 adjustnow">
                 <div
                   onClick={() => setIsActive(true)}
                   className="mobile-nav-toggler"
@@ -39,7 +39,13 @@ const Header = ({ style }) => {
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link href="/" className="logo-adjust">
-                        <Image src={img} width={64} height="auto" alt="Logo" layout="responsive" />
+                        <Image
+                          src={img}
+                          width={50}
+                          height="auto"
+                          alt="Logo"
+                          layout="intrinsic"
+                        />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">

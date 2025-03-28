@@ -109,7 +109,7 @@ const NavMenu = ({ num = false }) => {
                             href={sub_m.link}
                             key={i}
                             className={`${
-                              currentRoute.includes(sub_m.link) &&
+                              currentRoute.includes(sub_m.link.split("/")[2]) &&
                               "active-sub-menu"
                             }`}
                           >

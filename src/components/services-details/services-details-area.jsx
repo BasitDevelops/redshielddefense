@@ -71,7 +71,7 @@ const details_content = {
 };
 const { details_img, sidebar_lists } = details_content;
 
-const ServicesDetailsArea = ({ title, desc, title_2, desc_2, steps }) => {
+const ServicesDetailsArea = ({ img, title, desc, title_2, desc_2, steps }) => {
   const currentRoute = usePathname();
   return (
     <section className="services-details-area">
@@ -80,7 +80,7 @@ const ServicesDetailsArea = ({ title, desc, title_2, desc_2, steps }) => {
           <div className="col-lg-8">
             <div className="services-details-wrap">
               <div className="services-details-thumb">
-                <Image src={details_img} width={950} height={599} alt="img" />
+                <Image src={img} width={950} height={599} alt="img" />
               </div>
               <div className="services-details-content">
                 <h2 className="title">{title}</h2>

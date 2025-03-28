@@ -673,12 +673,12 @@ label {
 
 .sub-menu-container .sub-menu > ul > li > a {
   text-transform: uppercase;
-  padding: 16px;
+  padding: 8px;
 }
 
 .sub-menu-container .inner-sub-menu > ul > li > a {
   text-transform: capitalize;
-  padding: 16px;
+  padding: 8px;
 }
 
 .sub-menu-container .sub-menu > ul > li > a:hover,
@@ -796,7 +796,7 @@ label {
 
 .logo img,
 .nav-logo img {
-  width: 129px;
+  /* width: 129px; */
 }
 
 .mobile-menu {
@@ -923,16 +923,16 @@ label {
 .mobile-menu .navigation li {
   position: relative;
   display: block;
-  border-top: 1px solid #11263b;
+  border-top: 1px solid #3b1111;
   list-style: none;
 }
 
 .mobile-menu .navigation:last-child {
-  border-bottom: 1px solid #11263b;
+  border-bottom: 1px solid #3b1111;
 }
 
 .mobile-menu .navigation li > ul > li:first-child {
-  border-top: 1px solid #11263b;
+  border-top: 1px solid #3b1111;
 }
 
 .mobile-menu .navigation li > a {
@@ -1041,7 +1041,7 @@ label {
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
-  border: 1px solid #11263b;
+  border: 1px solid #3b1111;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1809,7 +1809,7 @@ label {
 .comments-avatar img,
 .review-author img,
 .services-details-thumb img {
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 .services-details-content .title {
@@ -1901,7 +1901,7 @@ label {
 .card-front {
   /* background: #cd3657;
   color: white; */
-  border: 1px solid #f9c747;
+  border: 1px dashed #f9c747;
   color: #f9c747;
   font-size: 20px;
   line-height: normal;

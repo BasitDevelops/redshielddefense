@@ -27,7 +27,7 @@ const menu_data = [
     sub_menus: [
       {
         id: "va",
-        link: "/services/vuln-assessment",
+        link: "/services/vuln-assessment/network-vuln-assessment",
         title: "Vulnerabilty Assessment",
         has_dropdown: true,
         sub_menus: [
@@ -60,7 +60,7 @@ const menu_data = [
       },
       {
         id: "ps",
-        link: "/services/pen-testing-services",
+        link: "/services/pen-testing-services/network-pen-testing",
         title: "Pentesting Services",
         has_dropdown: true,
         sub_menus: [
