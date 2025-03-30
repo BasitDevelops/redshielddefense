@@ -571,16 +571,6 @@
   .header-shop-cart-active .offcanvas-btn {
     margin-left: 23px;
   }
-  .additional-content > div {
-    flex-direction: column;
-  }
-  .additional-content > div:nth-child(even) {
-    flex-direction: column;
-  }
-  .additional-content > div > img,
-  .additional-content > div > div {
-    width: 60%;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -780,10 +770,6 @@
   }
   .header-shop-cart-active .header-cart {
     margin-right: 35px;
-  }
-  .additional-content > div > img,
-  .additional-content > div > div {
-    width: 60%;
   }
 }
 
@@ -1164,10 +1150,6 @@
     margin-right: 20px;
     margin-left: auto;
   }
-  .additional-content > div > img,
-  .additional-content > div > div {
-    width: 80%;
-  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -1278,9 +1260,5 @@
   .header-shop-cart-active .header-cart {
     margin-right: 30px;
     margin-left: auto;
-  }
-  .additional-content > div > img,
-  .additional-content > div > div {
-    width: 100%;
   }
 }

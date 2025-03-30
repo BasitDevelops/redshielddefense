@@ -173,8 +173,8 @@ const CertificationsMarquee = () => {
     <>
       <Marquee gradient gradientColor="#3e0f1b" gradientWidth={250}>
         <div className="certification-cards-container">
-          {certfications.map((certfication) => (
-            <div className="certification-card">
+          {certfications.map((certfication, i) => (
+            <div key={i} className="certification-card">
               <Image
                 src={certfication.src}
                 width={certfication.width || 80}
@@ -193,8 +193,8 @@ const CertificationsMarquee = () => {
         direction="right"
       >
         <div className="certification-cards-container">
-          {certfications_2.map((certfication) => (
-            <div className="certification-card">
+          {certfications_2.map((certfication, i) => (
+            <div key={i} className="certification-card">
               <Image
                 src={certfication.src}
                 width={certfication.width || 80}
@@ -208,8 +208,8 @@ const CertificationsMarquee = () => {
       </Marquee>
       <Marquee gradient gradientColor="#3e0f1b" gradientWidth={250}>
         <div className="certification-cards-container">
-          {certfications_3.map((certfication) => (
-            <div className="certification-card">
+          {certfications_3.map((certfication, i) => (
+            <div key={i} className="certification-card">
               <Image
                 src={certfication.src}
                 width={certfication.width || 80}

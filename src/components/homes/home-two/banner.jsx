@@ -72,7 +72,7 @@ const Banner = () => {
       //   style={{ backgroundImage: `url("assets/img/banner/background.jpg")` }}
     >
       {/* Particles component only in the banner section */}
-      <Particles id="particles-js" init={particlesInit} options={options} />
+      {/* <Particles id="particles-js" init={particlesInit} options={options} /> */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-8 col-lg-10">

@@ -16,7 +16,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
             <Link href="/">
               <Image
                 src={img}
-                width={50}
+                width={65}
                 height="auto"
                 alt="Logo"
                 layout="intrinsic"

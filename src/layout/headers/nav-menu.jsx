@@ -100,6 +100,7 @@ const NavMenu = ({ num = false }) => {
                 <div className="sub-menu-container">
                   <div className="sub-menu">
                     <ul>
+                      <h5>Featured Services</h5>
                       {menu.sub_menus.map((sub_m, i) => (
                         <li
                           key={i}
@@ -113,7 +114,7 @@ const NavMenu = ({ num = false }) => {
                               "active-sub-menu"
                             }`}
                           >
-                            <i>{sub_m.icon}</i>
+                            {/* <i>{sub_m.icon}</i> */}
                             {sub_m.title}
                           </Link>
                         </li>
@@ -127,15 +128,19 @@ const NavMenu = ({ num = false }) => {
                           if (inner_sub_m.id === activeSubMenu) {
                             return (
                               <li key={i}>
-                                <Link
-                                  href={inner_sub_m.link}
-                                  className={`${
-                                    inner_sub_m.link === currentRoute &&
-                                    "active-sub-menu"
-                                  }`}
-                                >
-                                  {inner_sub_m.title}
-                                </Link>
+                                <i>{inner_sub_m.icon}</i>
+                                <div>
+                                  <Link
+                                    href={inner_sub_m.link}
+                                    className={`${
+                                      inner_sub_m.link === currentRoute &&
+                                      "active-sub-menu"
+                                    }`}
+                                  >
+                                    {inner_sub_m.title}
+                                  </Link>
+                                  <p>{inner_sub_m.desc}</p>
+                                </div>
                               </li>
                             );
                           }

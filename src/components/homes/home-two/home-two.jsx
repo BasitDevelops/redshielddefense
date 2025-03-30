@@ -25,7 +25,7 @@ const HomeTwo = () => {
         {/* <HelpArea style_3={true} /> */}
         <CertificationsMarquee />
         <AdditionalContent />
-        <Marquee />
+        {/* <Marquee /> */}
         <Testimonial />
         {/* <Blog style_2={true} /> */}
         <FAQ style_3={true} />

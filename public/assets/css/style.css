@@ -623,7 +623,7 @@ label {
   /* left: 0; */
   right: 0;
   top: 100%;
-  min-width: 690px;
+  width: 1000px;
   /* border: 1px solid #071b30; */
   background: #3d0b1b;
   margin: 0;
@@ -652,9 +652,11 @@ label {
 }
 
 .sub-menu-container .sub-menu {
-  width: 35%;
+  width: 30%;
   background-color: #290710;
-  padding: 32px;
+  padding: 40px;
+
+  box-sizing: border-box;
 }
 
 .sub-menu-container .sub-menu > ul,
@@ -662,36 +664,99 @@ label {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
-.sub-menu-container .sub-menu > ul > li,
-.sub-menu-container .inner-sub-menu > ul > li {
+.sub-menu-container .inner-sub-menu > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.sub-menu-container .sub-menu > ul > li {
   /* background-color: black; */
   /* padding: 4px 0; */
-  font-size: 14px;
+  /* font-size: 14px; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  padding: 16px 0;
 }
 
-/* .sub-menu-container .sub-menu > ul > li {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-} */
+.sub-menu-container .sub-menu > ul > li {
+  /* border-bottom: 1px solid blue;
+  padding: 16px 0; */
+}
+
+.sub-menu-container .sub-menu > ul > li:last-child {
+  border-bottom: none;
+  /* padding: 16px 0; */
+}
+
+.sub-menu-container .sub-menu > ul > h5 {
+  color: white;
+  text-transform: capitalize;
+  padding: 0;
+  margin-bottom: 8px;
+  /* font-weight: 500; */
+}
 
 .sub-menu-container .sub-menu > ul > li > a {
-  text-transform: uppercase;
-  padding: 8px;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: capitalize;
+  padding: 8px 0;
   display: flex;
   align-items: center;
   gap: 16px;
+  font-size: 14px;
 }
 
-.sub-menu-container .inner-sub-menu > ul > li > a {
+.sub-menu-container .inner-sub-menu > ul > li {
+  display: flex;
+  gap: 16px;
+}
+
+.sub-menu-container .inner-sub-menu > ul > li > i {
+  color: white;
+  /* width: 100px; */
+  font-size: 25px;
+}
+
+.sub-menu-container .inner-sub-menu > ul > li > i {
+  color: #f9c747;
+}
+
+.sub-menu-container .inner-sub-menu > ul > li > div {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  padding: 0;
+}
+
+.sub-menu-container .inner-sub-menu > ul > li:nth-last-child(-n + 3) > div {
+  border-bottom: none;
+}
+
+/* .sub-menu-container .inner-sub-menu > ul > li > div:nth-child(1) {
+  border-bottom: none;
+} */
+
+/* .sub-menu-container .inner-sub-menu > ul > li > div:last-of-type {
+  border-bottom:none;
+  padding: 0;
+} */
+
+.sub-menu-container .inner-sub-menu > ul > li > div > a {
   text-transform: capitalize;
-  padding: 8px;
+  padding: 0;
+  margin-bottom: 8px;
+  color: white;
 }
 
-.sub-menu-container .sub-menu > ul > li > a:hover,
-.sub-menu-container .inner-sub-menu > ul > li > a:hover {
+.sub-menu-container .inner-sub-menu > ul > li > div > p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sub-menu-container .sub-menu > ul > li > div > a:hover,
+.sub-menu-container .inner-sub-menu > ul > li > div > a:hover {
   color: #f9c747;
 }
 
@@ -700,9 +765,9 @@ label {
 }
 
 .sub-menu-container .inner-sub-menu {
-  width: 65%;
+  width: 70%;
   background-color: #cd3657;
-  padding: 32px;
+  padding: 40px;
 }
 
 .custom-flex {
@@ -1078,6 +1143,7 @@ label {
   border: 2px solid #fff;
   text-align: center;
   line-height: 38px;
+  top: 25%;
 }
 
 /* OffCanvas-menu */
@@ -1992,41 +2058,17 @@ label {
 }
 
 .additional-content {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-  padding: 120px 64px 125px 64px;
+  /* display: flex; */
 }
 
-.additional-content > div {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 48px;
+.additional-content .layout {
+  padding: 64px 0;
 }
 
-.additional-content > div:nth-child(even) {
+.additional-content .layout:nth-child(even) {
+  display: flex;
   flex-direction: row-reverse;
-}
-
-.additional-content > div > img,
-.additional-content > div > div {
-  width: 50%;
-}
-
-.additional-content > div > img {
-  border-radius: 0.5rem;
-  mix-blend-mode: luminosity;
-}
-
-.additional-content > div > div > h3 {
-  font-size: 44px;
-  color: white;
-  margin-bottom: 30px;
-}
-
-.additional-content > div > div > p {
-  margin-bottom: 30px;
+  background: #3a011d;
 }
 /*  */
 

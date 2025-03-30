@@ -21,25 +21,43 @@ const AdditionalContent = () => {
     },
   ];
   return (
-    <div className="additional-content">
-      {additional_content.map((content) => (
-        <div>
-          <Image src={content.img} width={350} height={350} alt="" />
-          <div>
-            <h3>{content.title}</h3>
-            <p>{content.desc}</p>
-            <Link
-              href="/contact"
-              className="btn wow fadeInUp"
-              data-wow-delay=".6s"
-            >
-              <span className="text">Get Started</span>
-              <span className="shape"></span>
-            </Link>
+    <section className="about-area security-area additional-content">
+      <div className="container">
+        {additional_content.map((content, i) => (
+          <div
+            key={i}
+            className="row justify-content-center layout align-items-center"
+          >
+            <div className="col-xl-6 col-lg-8">
+              <div className="about-img">
+                <Image
+                  className="wow fadeInLeft"
+                  data-wow-delay=".2s"
+                  src={content.img}
+                  width={670}
+                  height={400}
+                  alt="img"
+                />
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-8 col-md-11">
+              <div className="about-content">
+                <h2 className="title">{content.title}</h2>
+                <p>{content.desc}</p>
+                <Link
+                  href="/contact"
+                  className="btn wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
+                  <span className="text">Get Started</span>
+                  <span className="shape"></span>
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 };
 
