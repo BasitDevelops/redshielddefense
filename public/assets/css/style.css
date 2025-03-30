@@ -621,9 +621,9 @@ label {
   flex-direction: row-reverse;
   position: absolute;
   /* left: 0; */
-  right: 0;
+  right: -100%;
   top: 100%;
-  width: 1000px;
+  width: 80vw;
   /* border: 1px solid #071b30; */
   background: #3d0b1b;
   margin: 0;
