@@ -9,6 +9,8 @@ import HelpArea from "@/common/help-area";
 import Team from "@/common/team";
 import Header from "@/layout/headers/header";
 import FAQ from "@/common/faq";
+import CertificationsMarquee from "@/components/certfications-marquee/certifications-marquee";
+import AdditionalContent from "@/components/additional-content/additional-content";
 
 const HomeTwo = () => {
   return (
@@ -21,6 +23,8 @@ const HomeTwo = () => {
         <About />
         {/* <Team /> */}
         {/* <HelpArea style_3={true} /> */}
+        <CertificationsMarquee />
+        <AdditionalContent />
         <Marquee />
         <Testimonial />
         {/* <Blog style_2={true} /> */}

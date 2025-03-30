@@ -1,3 +1,6 @@
+import { MdOutlineScreenSearchDesktop } from "react-icons/md";
+import { TfiTarget } from "react-icons/tfi";
+
 const menu_data = [
   {
     id: 1,
@@ -29,6 +32,7 @@ const menu_data = [
         id: "va",
         link: "/services/vuln-assessment/network-vuln-assessment",
         title: "Vulnerabilty Assessment",
+        icon: <MdOutlineScreenSearchDesktop />,
         has_dropdown: true,
         sub_menus: [
           {
@@ -62,6 +66,7 @@ const menu_data = [
         id: "ps",
         link: "/services/pen-testing-services/network-pen-testing",
         title: "Pentesting Services",
+        icon: <TfiTarget />,
         has_dropdown: true,
         sub_menus: [
           {

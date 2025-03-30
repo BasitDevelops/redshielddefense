@@ -30,7 +30,7 @@ const About = ({ style }) => {
           <div className="col-lg-6">
             <div className="about-img">
               <Image
-                src="/assets/img/others/about.png"
+                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width={705}
                 height={567}
                 alt="theme-pure"

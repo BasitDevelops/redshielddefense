@@ -113,6 +113,7 @@ const NavMenu = ({ num = false }) => {
                               "active-sub-menu"
                             }`}
                           >
+                            <i>{sub_m.icon}</i>
                             {sub_m.title}
                           </Link>
                         </li>

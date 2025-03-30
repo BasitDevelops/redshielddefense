@@ -652,7 +652,7 @@ label {
 }
 
 .sub-menu-container .sub-menu {
-  width: 30%;
+  width: 35%;
   background-color: #290710;
   padding: 32px;
 }
@@ -671,9 +671,18 @@ label {
   font-size: 14px;
 }
 
+/* .sub-menu-container .sub-menu > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+} */
+
 .sub-menu-container .sub-menu > ul > li > a {
   text-transform: uppercase;
   padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .sub-menu-container .inner-sub-menu > ul > li > a {
@@ -691,7 +700,7 @@ label {
 }
 
 .sub-menu-container .inner-sub-menu {
-  width: 70%;
+  width: 65%;
   background-color: #cd3657;
   padding: 32px;
 }
@@ -1494,11 +1503,19 @@ label {
 
 .about-img {
   position: relative;
+  object-fit: cover;
+}
+
+.about-img > img {
+  /* position: relative; */
+  border-radius: 0.5rem;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
 }
 
 .about-img::before {
   content: "";
-  background-image: url(../img/others/about_gradient.png);
+  /* background-image: url(../img/others/about_gradient.png); */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1809,7 +1826,7 @@ label {
 .comments-avatar img,
 .review-author img,
 .services-details-thumb img {
-  /* mix-blend-mode: luminosity; */
+  mix-blend-mode: luminosity;
 }
 
 .services-details-content .title {
@@ -1954,6 +1971,64 @@ label {
 .inner-steps-area {
   padding: 120px 0 125px;
 }
+
+/*  */
+.certification-cards-container {
+  display: flex;
+}
+
+.certification-card {
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+  box-shadow: 1px solid black;
+  background-color: #cd3657;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 0.5rem;
+}
+
+.additional-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 120px 64px 125px 64px;
+}
+
+.additional-content > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.additional-content > div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.additional-content > div > img,
+.additional-content > div > div {
+  width: 50%;
+}
+
+.additional-content > div > img {
+  border-radius: 0.5rem;
+  mix-blend-mode: luminosity;
+}
+
+.additional-content > div > div > h3 {
+  font-size: 44px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.additional-content > div > div > p {
+  margin-bottom: 30px;
+}
+/*  */
 
 /* 13. Marquee */
 .marquee-area {

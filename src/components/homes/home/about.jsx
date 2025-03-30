@@ -1,7 +1,9 @@
 import Image from "next/image";
 
 const about_content = {
-  about_img: "/assets/img/others/security_img.png",
+  // about_img: "/assets/img/others/security_img.png",
+  about_img:
+    "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGN5YmVyJTIwc2VjdXJpdHklMjB0ZWFtfGVufDB8fDB8fHwy",
   title: "Advanced Cyber Security Operation Center",
   des: (
     <>
@@ -20,7 +22,7 @@ const about_content = {
     "Clear, Actionable Reporting",
   ],
 };
-const { about_img, title, des, about_list } = about_content;
+const { about_img, img, title, des, about_list } = about_content;
 
 const About = () => {
   return (
