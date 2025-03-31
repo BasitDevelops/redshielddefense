@@ -369,6 +369,634 @@ const complete_services_data = [
       },
     ],
   },
+  // ADVISORY SERVICES
+  {
+    img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/advisory-services/cyber-policy-review",
+    main_title: "Cyber Policy Review",
+    title:
+      "Ensure your cyber security policy keeps pace with the changing threat landscape",
+    desc: "Cyber risks are continually evolving. Your cyber security policy plays a key role in helping your organisation to stay ahead of threats. As well as keeping information secure, it ensures that your organisation fully meets regulatory requirements and also enables employees to make sound decisions in the face of risk. However, with cybercriminals becoming more sophisticated in their approach, it’s all too easy for these types of policies to become out of date.",
+    title_2: "Cyber policy review features",
+    desc_2:
+      "A security policy review from RED/SHIELD/DEFENSE will strengthen your organisation’s policy design, uncover issues that could potentially create vulnerabilities, prioritise steps that can be taken to mitigate risk, and support the development of an actionable remediation plan.",
+    steps: [
+      {
+        title: "24/7 support and assistance",
+        desc: "Our experienced global team of cyber security experts is available to provide remote and on-site support around-the-clock.",
+      },
+      {
+        title: "Tailored advice",
+        desc: "An effective cyber security policy should reflect an organisation’s environment and its unique risk profile. We’ll work closely with you to create a cyber security policy which matches your specific requirements and helps to protect your organisation now and in the future.",
+      },
+      {
+        title: "Leading cyber risk expertise on your side",
+        desc: "We understand the difference that an effective cyber security policy can make Our experts provide rapid response to more than 3,000 cyber incidents of all types every year. We apply all this expertise to help you to design a robust and highly effective cyber security policy.",
+      },
+      {
+        title: "Business-friendly analysis",
+        desc: "We’ll ensure that our review process aligns with your business priorities and processes to keep disruption to a minimum. Then we’ll clearly outline strengths, weaknesses and specific next steps.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/advisory-services/cyber-due-dilligence",
+    main_title: "Cyber Due Diligence",
+    title: "Pre- and post-transaction risk assessments",
+    desc: "Independent cyber diligence support from RED/SHIELD/DEFENSE provides clear insight into whether the cyber security track record and status at your target company is robust. Our pre- and post-transaction assessments can identify actual cyber security lapses or at-risk areas, quantify remediation costs and help restructure investments if needed. Assessments can also help to demonstrate data security commitment to stakeholders and regulators. Assessment is often conducted immediately post-transaction or can be performed pre-transaction by organisations seeking to be acquired.",
+    title_2: "Remote and on-site cyber due diligence services",
+    desc_2:
+      "Whether you need help with assessing an organisation’s cyber security status for a merger or you are looking to ensure that an upcoming business acquisition does not compromise your security status, we can help.",
+    steps: [
+      {
+        title: "Deep and dark web exposure",
+        desc: "With thousands of threats lurking on the dark web, knowing when your business is at risk of attack is a significant challenge.",
+      },
+      {
+        title: "Cyber risk assessment",
+        desc: "Cyber Risk Assessment evaluates an organization's security posture by identifying vulnerabilities, analyzing potential threats, and providing mitigation strategies to reduce cyber risks.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1592085198739-ffcad7f36b54?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/advisory-services/supply-chain-due-dilligence",
+    main_title: "Supply Chain Due Diligence",
+    title:
+      "Assess, identify and remediate third party security risks with confidence",
+    desc: "While third parties can add great value to your organisation, they also present significant security risks. In a 2021 report by the Ponemon Instite and SecureLink, 74% of companies breached within the previous 12 months stated that the cause was granting too much privileged access to third parties. When an incident affects your customers, it won’t matter if the root cause was a third party – your organisation will be held accountable for the consequences. With your reputation and revenue on the line, how are you managing third party security risks? RED/SHIELD/DEFENSE's third party cyber risk management services provide multidirectional insight to support robust cyber security strategies and meet regulatory requirements.",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    path: "/services/advisory-services/compliance-advisory",
+    main_title: "Compliance Advisory Services",
+    title: "Ensure Regulatory Compliance with Expert Advisory Services",
+    desc: "Navigating the complex world of regulations can be challenging. Our Compliance Advisory services help you align with industry standards, avoid penalties, and strengthen your organization's governance framework.",
+    title_2: "Our Compliance Advisory Solutions",
+    desc_2:
+      "Stay ahead of regulatory changes with our tailored Compliance Advisory services, ensuring your organization meets legal and industry requirements efficiently.",
+    steps: [
+      {
+        title: "Regulatory Compliance Assessment",
+        desc: "Evaluate your organization's compliance posture against industry regulations like GDPR, HIPAA, ISO 27001, and PCI DSS.",
+      },
+      {
+        title: "Policy and Procedure Development",
+        desc: "Create and refine security policies and procedures to align with best practices and regulatory requirements.",
+      },
+      {
+        title: "Risk Management & Gap Analysis",
+        desc: "Identify compliance gaps and implement risk mitigation strategies to strengthen your governance framework.",
+      },
+      {
+        title: "Employee Training & Awareness",
+        desc: "Educate staff on regulatory requirements and security best practices to foster a culture of compliance.",
+      },
+      {
+        title: "Continuous Monitoring & Audits",
+        desc: "Implement continuous monitoring programs and periodic audits to maintain compliance and adapt to evolving regulations.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9mZmljZSUyMGxsYXB0b3BzfGVufDB8fDB8fHwy",
+    path: "/services/advisory-services/virtual-CISO",
+    main_title: "Virtual Chief Information Security Officer (vCISO) Services",
+    title: "Strengthen Your Cybersecurity with Expert Virtual CISO Services",
+    desc: "In today's complex threat landscape, having strategic cybersecurity leadership is essential. Our Virtual CISO services provide experienced security professionals who work with your organization to develop and manage an effective information security program tailored to your business needs.",
+    title_2: "Our Virtual CISO Solutions",
+    desc_2:
+      "Enhance your organization's security posture with our Virtual CISO services, offering expert guidance and leadership to navigate cybersecurity challenges effectively.",
+    steps: [
+      {
+        title: "Strategic Security Planning",
+        desc: "Develop a comprehensive security strategy aligned with your business objectives to protect against evolving threats.",
+      },
+      {
+        title: "Risk Assessment & Management",
+        desc: "Identify, evaluate, and manage information security risks to minimize potential impacts on your organization.",
+      },
+      {
+        title: "Policy Development & Implementation",
+        desc: "Create and enforce security policies and procedures to ensure consistent and effective protection of information assets.",
+      },
+      {
+        title: "Regulatory Compliance",
+        desc: "Ensure adherence to relevant regulations and standards, such as GDPR, HIPAA, and ISO 27001, to maintain compliance and avoid penalties.",
+      },
+      {
+        title: "Incident Response & Management",
+        desc: "Establish and oversee incident response protocols to detect, respond to, and recover from security incidents efficiently.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/advisory-services/DPO-services",
+    main_title: "Data Protection Officer (DPO) Services",
+    title: "Ensure Compliance with Expert Data Protection Officer Services",
+    desc: "Navigating the complexities of data protection regulations requires dedicated expertise. Our Data Protection Officer (DPO) services provide your organization with the necessary guidance to comply with laws such as GDPR, safeguarding personal data and building trust with stakeholders.",
+    title_2: "Our Data Protection Officer Solutions",
+    desc_2:
+      "Strengthen your data privacy framework with our comprehensive DPO services, tailored to meet the unique needs of your organization.",
+    steps: [
+      {
+        title: "Regulatory Compliance Oversight",
+        desc: "Monitor and ensure adherence to data protection laws and regulations, reducing the risk of non-compliance penalties.",
+      },
+      {
+        title: "Data Protection Impact Assessments (DPIAs)",
+        desc: "Conduct thorough assessments to identify and mitigate risks associated with data processing activities.",
+      },
+      {
+        title: "Policy Development and Implementation",
+        desc: "Develop, review, and implement data protection policies and procedures to establish a robust privacy framework.",
+      },
+      {
+        title: "Employee Training and Awareness",
+        desc: "Educate staff on data protection principles and best practices to foster a culture of privacy within the organization.",
+      },
+      {
+        title: "Incident Management and Reporting",
+        desc: "Oversee the response to data breaches, including notification to authorities and affected individuals, and implement corrective measures.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/advisory-services/dark-web-monitoring",
+    main_title: "Dark Web Monitoring Services",
+    title: "Protect Your Organization with Comprehensive Dark Web Monitoring",
+    desc: "In the digital age, sensitive information can easily find its way onto the dark web, posing significant risks to your organization. Our Dark Web Monitoring services proactively scan hidden online spaces to detect and alert you to potential data breaches, ensuring timely mitigation and safeguarding your assets.",
+    title_2: "Our Dark Web Monitoring Solutions",
+    desc_2:
+      "Stay ahead of cyber threats with our tailored Dark Web Monitoring services, designed to identify and address vulnerabilities before they can be exploited.",
+    steps: [
+      {
+        title: "Continuous Dark Web Surveillance",
+        desc: "Monitor dark web forums, marketplaces, and hidden communities 24/7 to detect the exposure of your organization's sensitive data.",
+      },
+      {
+        title: "Compromised Credential Detection",
+        desc: "Identify stolen or leaked employee and customer credentials to prevent unauthorized access and potential breaches.",
+      },
+      {
+        title: "Data Breach Alerting",
+        desc: "Receive immediate notifications when your organization's information is found on the dark web, enabling swift response to mitigate risks.",
+      },
+      {
+        title: "Threat Intelligence Analysis",
+        desc: "Analyze dark web activities to gain insights into emerging threats and threat actors targeting your industry.",
+      },
+      {
+        title: "Remediation Support",
+        desc: "Provide guidance and support to address identified vulnerabilities and strengthen your organization's overall security posture.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1617777934845-a818fd6e1bcb?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/advisory-services/application-security",
+    main_title: "Application Security Services",
+    title: "Fortify Your Software with Comprehensive Application Security",
+    desc: "In today's digital landscape, ensuring the security of your applications is paramount. Our Application Security services provide thorough assessments and solutions to identify and mitigate vulnerabilities, protecting your software from potential threats and ensuring compliance with industry standards.",
+    title_2: "Our Application Security Solutions",
+    desc_2:
+      "Enhance your application's resilience with our tailored security services, designed to safeguard against evolving cyber threats.",
+    steps: [
+      {
+        title: "Application Vulnerability Assessment",
+        desc: "Conduct comprehensive evaluations to detect and address security weaknesses within your applications.",
+      },
+      {
+        title: "Secure Code Review",
+        desc: "Analyze source code to identify and rectify vulnerabilities, ensuring adherence to secure coding practices.",
+      },
+      {
+        title: "Penetration Testing",
+        desc: "Simulate real-world attacks to evaluate your application's defenses and identify areas for improvement.",
+      },
+      {
+        title: "Security Architecture Review",
+        desc: "Assess the design and implementation of your application's architecture to ensure robust security controls.",
+      },
+      {
+        title: "Compliance and Risk Management",
+        desc: "Ensure your applications meet regulatory requirements and manage risks effectively to protect sensitive data.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/advisory-services/threat-modelling",
+    main_title: "Threat Modelling Services",
+    title:
+      "Proactively Identify and Mitigate Security Threats with Expert Threat Modelling",
+    desc: "Understanding potential threats is crucial in today's complex digital environment. Our Threat Modelling services systematically identify, evaluate, and address security risks within your systems and applications, enabling you to anticipate and counteract potential attacks effectively.",
+    title_2: "Our Threat Modelling Solutions",
+    desc_2:
+      "Enhance your security posture with our comprehensive Threat Modelling services, designed to uncover vulnerabilities early and implement effective mitigation strategies.",
+    steps: [
+      {
+        title: "System Architecture Analysis",
+        desc: "Examine your system's design to identify potential security weaknesses and areas susceptible to threats.",
+      },
+      {
+        title: "Threat Identification and Classification",
+        desc: "Identify potential threats and categorize them based on their impact and likelihood, prioritizing them for mitigation.",
+      },
+      {
+        title: "Attack Surface Evaluation",
+        desc: "Assess all entry points and interfaces to determine where your system is most vulnerable to attacks.",
+      },
+      {
+        title: "Mitigation Strategy Development",
+        desc: "Develop and recommend strategies to address identified threats, reducing risk and enhancing system resilience.",
+      },
+      {
+        title: "Continuous Monitoring and Review",
+        desc: "Implement ongoing monitoring to detect new threats and ensure that mitigation strategies remain effective over time.",
+      },
+    ],
+  },
+  // Managed Detection and Response
+  {
+    img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/managed-detection-response/RSD-responder-MDR",
+    main_title: "Responder Managed Detection and Response (MDR)",
+    title: "Enhance Your Security with Responder MDR Services",
+    desc: "Responder MDR provides continuous monitoring, detection, and response to cyber threats, ensuring your organization remains protected against evolving attacks.",
+    title_2: "Our Responder MDR Solutions",
+    desc_2:
+      "Leverage our Responder MDR services to proactively identify and mitigate threats, minimizing potential damage and ensuring business continuity.",
+    steps: [
+      {
+        title: "24/7 Threat Monitoring",
+        desc: "Continuous surveillance of your IT environment to detect and respond to threats in real-time.",
+      },
+      {
+        title: "Incident Analysis and Investigation",
+        desc: "In-depth examination of security incidents to understand their origin, impact, and necessary remediation steps.",
+      },
+      {
+        title: "Threat Intelligence Integration",
+        desc: "Utilizing the latest threat intelligence to stay ahead of emerging cyber threats.",
+      },
+      {
+        title: "Automated Response Actions",
+        desc: "Implementing automated protocols to swiftly contain and neutralize identified threats.",
+      },
+      {
+        title: "Detailed Reporting and Recommendations",
+        desc: "Providing comprehensive reports on incidents and actionable recommendations to strengthen your security posture.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/managed-detection-response/MDR-for-microsoft",
+    main_title: "Managed Detection and Response (MDR) for Microsoft",
+    title: "Optimize Your Microsoft Security with MDR Services",
+    desc: "Our MDR for Microsoft services enhance the security of your Microsoft environments by providing expert monitoring and rapid response to threats.",
+    title_2: "Our MDR for Microsoft Solutions",
+    desc_2:
+      "Ensure the integrity of your Microsoft applications and data with our specialized MDR services tailored for Microsoft platforms.",
+    steps: [
+      {
+        title: "Microsoft 365 Security Monitoring",
+        desc: "Continuous oversight of your Microsoft 365 suite to detect and address potential security issues.",
+      },
+      {
+        title: "Azure Security Management",
+        desc: "Protect your Azure cloud infrastructure with proactive threat detection and response strategies.",
+      },
+      {
+        title: "Integration with Microsoft Defender",
+        desc: "Seamless integration with Microsoft Defender to enhance endpoint protection capabilities.",
+      },
+      {
+        title: "Advanced Threat Hunting",
+        desc: "Proactively searching for indicators of compromise within your Microsoft environments.",
+      },
+      {
+        title: "Compliance and Risk Assessment",
+        desc: "Evaluating your Microsoft setups to ensure compliance with industry standards and regulations.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/managed-detection-response/managed-SIEM",
+    main_title: "Managed Security Information and Event Management (SIEM)",
+    title: "Strengthen Your Security with Managed SIEM Services",
+    desc: "Our Managed SIEM services provide centralized logging, real-time analysis, and incident response to protect your organization from cyber threats.",
+    title_2: "Our Managed SIEM Solutions",
+    desc_2:
+      "Enhance your threat detection and response capabilities with our comprehensive Managed SIEM services.",
+    steps: [
+      {
+        title: "Log Collection and Management",
+        desc: "Aggregating logs from various sources to provide a unified view of your security landscape.",
+      },
+      {
+        title: "Real-Time Threat Detection",
+        desc: "Analyzing log data in real-time to identify and respond to potential security incidents.",
+      },
+      {
+        title: "Incident Response Coordination",
+        desc: "Coordinating responses to detected threats to minimize impact and restore normal operations.",
+      },
+      {
+        title: "Compliance Reporting",
+        desc: "Generating reports to demonstrate compliance with industry regulations and standards.",
+      },
+      {
+        title: "Continuous System Tuning",
+        desc: "Regularly updating and refining SIEM configurations to adapt to evolving threats and business needs.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/managed-detection-response/managed-EDR",
+    main_title: "Managed Endpoint Detection and Response (EDR)",
+    title: "Protect Your Endpoints with Managed EDR Services",
+    desc: "Our Managed EDR services offer continuous monitoring and response to threats targeting your organization's endpoints, ensuring robust protection against cyber attacks.",
+    title_2: "Our Managed EDR Solutions",
+    desc_2:
+      "Safeguard your endpoint devices with our proactive Managed EDR services designed to detect and neutralize threats swiftly.",
+    steps: [
+      {
+        title: "Endpoint Activity Monitoring",
+        desc: "Continuous surveillance of endpoint behaviors to detect anomalies and potential threats.",
+      },
+      {
+        title: "Threat Detection and Analysis",
+        desc: "Identifying and analyzing malicious activities targeting endpoint devices.",
+      },
+      {
+        title: "Rapid Incident Response",
+        desc: "Quickly responding to and mitigating threats to minimize damage and downtime.",
+      },
+      {
+        title: "Endpoint Hardening Recommendations",
+        desc: "Providing guidance on strengthening endpoint configurations to prevent future attacks.",
+      },
+      {
+        title: "Detailed Incident Reporting",
+        desc: "Delivering comprehensive reports on detected incidents and remediation actions taken.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/managed-detection-response/managed-SOC",
+    main_title: "Managed Security Operations Center (SOC) Services",
+    title: "Strengthen Your Cybersecurity with Managed SOC Solutions",
+    desc: "In an era of increasing cyber threats, having a dedicated team to monitor, detect, and respond to incidents is crucial. Our Managed Security Operations Center (SOC) services provide 24/7 surveillance of your IT infrastructure, ensuring rapid identification and mitigation of security threats to protect your organization's assets and reputation.",
+    title_2: "Our Managed SOC Solutions",
+    desc_2:
+      "Enhance your organization's security posture with our comprehensive Managed SOC services, tailored to provide continuous protection against evolving cyber threats.",
+    steps: [
+      {
+        title: "Continuous Threat Monitoring",
+        desc: "Provide round-the-clock surveillance of your networks, systems, and applications to detect and address potential security incidents promptly.",
+      },
+      {
+        title: "Advanced Threat Detection",
+        desc: "Utilize cutting-edge technologies and threat intelligence to identify sophisticated cyber threats and vulnerabilities within your environment.",
+      },
+      {
+        title: "Incident Response and Remediation",
+        desc: "Deliver swift and effective responses to security incidents, minimizing potential damage and facilitating rapid recovery.",
+      },
+      {
+        title: "Vulnerability Management",
+        desc: "Conduct regular assessments to identify, prioritize, and remediate vulnerabilities, reducing the risk of exploitation.",
+      },
+      {
+        title: "Compliance and Reporting",
+        desc: "Ensure adherence to industry regulations and standards by providing detailed reports and insights into your organization's security status.",
+      },
+    ],
+  },
+  // Digital Forensics and Incident Response
+  {
+    img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/digital-forensics-incident-response/cyber-incident-response",
+    main_title: "Cyber Incident Response Services",
+    title:
+      "Rapid and Effective Cyber Incident Response to Protect Your Organization",
+    desc: "In the face of cyber threats, swift action is critical. Our Cyber Incident Response services provide immediate assistance to identify, contain, and remediate security incidents, minimizing potential damage and restoring normal operations promptly.",
+    title_2: "Our Cyber Incident Response Solutions",
+    desc_2:
+      "Ensure your organization is prepared to handle cyber incidents with our comprehensive response services, designed to mitigate risks and enhance resilience.",
+    steps: [
+      {
+        title: "Immediate Incident Assessment",
+        desc: "Quickly evaluate the nature and scope of the security incident to determine the appropriate response strategy.",
+      },
+      {
+        title: "Containment and Eradication",
+        desc: "Implement measures to contain the threat, eliminate malicious elements, and prevent further damage.",
+      },
+      {
+        title: "System Recovery",
+        desc: "Restore affected systems and data to normal operations while ensuring the integrity and security of your environment.",
+      },
+      {
+        title: "Post-Incident Analysis",
+        desc: "Conduct a thorough investigation to understand the incident's root cause and provide recommendations to prevent future occurrences.",
+      },
+      {
+        title: "Incident Response Planning",
+        desc: "Develop and refine incident response plans tailored to your organization's specific needs and threat landscape.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/digital-forensics-incident-response/incident-response-planning",
+    main_title: "Incident Response Planning Services",
+    title:
+      "Prepare for Cyber Threats with Comprehensive Incident Response Planning",
+    desc: "A well-prepared incident response plan is crucial to minimizing damage from cyber incidents. Our Incident Response Planning services help organizations develop, test, and refine response strategies to ensure a swift and effective reaction to security breaches.",
+    title_2: "Our Incident Response Planning Solutions",
+    desc_2:
+      "Strengthen your security posture with a proactive approach to incident management through structured response planning.",
+    steps: [
+      {
+        title: "Risk Assessment & Gap Analysis",
+        desc: "Identify potential vulnerabilities and assess current incident response capabilities.",
+      },
+      {
+        title: "Incident Response Playbooks",
+        desc: "Develop detailed response procedures tailored to various cyber threats.",
+      },
+      {
+        title: "Incident Simulation & Training",
+        desc: "Conduct tabletop exercises and simulations to test and refine response effectiveness.",
+      },
+      {
+        title: "Compliance & Regulatory Alignment",
+        desc: "Ensure your response plan aligns with industry regulations and cybersecurity frameworks.",
+      },
+      {
+        title: "Post-Incident Review & Improvement",
+        desc: "Continuously update response strategies based on real-world incidents and evolving threats.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/digital-forensics-incident-response/breach-notification",
+    main_title: "Breach Notification Services",
+    title:
+      "Comply with Regulations and Protect Your Reputation with Breach Notification Services",
+    desc: "Timely and effective breach notification is essential to maintaining compliance and trust. Our Breach Notification services help organizations navigate regulatory requirements, communicate with affected parties, and minimize reputational damage.",
+    title_2: "Our Breach Notification Solutions",
+    desc_2:
+      "Ensure a structured and compliant approach to breach disclosures with our expert-led notification services.",
+    steps: [
+      {
+        title: "Legal & Regulatory Compliance",
+        desc: "Assess notification obligations based on industry regulations and data protection laws.",
+      },
+      {
+        title: "Incident Impact Assessment",
+        desc: "Determine the scope and severity of the breach to guide notification strategies.",
+      },
+      {
+        title: "Stakeholder Communication",
+        desc: "Prepare clear, transparent messages for affected individuals, regulators, and the public.",
+      },
+      {
+        title: "Crisis Management Support",
+        desc: "Assist with public relations and media responses to mitigate reputational risks.",
+      },
+      {
+        title: "Post-Breach Monitoring",
+        desc: "Provide ongoing monitoring and remediation support to prevent future incidents.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/digital-forensics-incident-response/digital-forensics",
+    main_title: "Digital Forensics Services",
+    title: "Uncover Cyber Threats with Advanced Digital Forensics",
+    desc: "Understanding how a cyber incident occurred is crucial for remediation and legal action. Our Digital Forensics services provide in-depth investigations to identify attack vectors, preserve evidence, and support incident response efforts.",
+    title_2: "Our Digital Forensics Solutions",
+    desc_2:
+      "Gain insights into cyber incidents with our expert forensic analysis and investigative techniques.",
+    steps: [
+      {
+        title: "Forensic Data Collection",
+        desc: "Securely gather and preserve digital evidence from compromised systems.",
+      },
+      {
+        title: "Threat Actor Analysis",
+        desc: "Identify malicious actors, attack patterns, and potential motives behind cyber incidents.",
+      },
+      {
+        title: "Incident Reconstruction",
+        desc: "Analyze logs and system data to reconstruct the sequence of events leading to the breach.",
+      },
+      {
+        title: "Legal & Compliance Support",
+        desc: "Ensure forensic investigations meet regulatory and evidentiary standards for legal proceedings.",
+      },
+      {
+        title: "Remediation & Recovery Guidance",
+        desc: "Provide actionable insights to prevent recurrence and strengthen security defenses.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/digital-forensics-incident-response/litigation-support",
+    main_title: "Cybersecurity Litigation Support Services",
+    title: "Expert Cybersecurity Litigation Support for Legal Cases",
+    desc: "Cyber-related legal cases require specialized technical expertise. Our Litigation Support services provide forensic analysis, expert testimony, and evidence handling to support legal proceedings.",
+    title_2: "Our Litigation Support Solutions",
+    desc_2:
+      "Strengthen your legal case with expert cybersecurity analysis and investigative support.",
+    steps: [
+      {
+        title: "Digital Evidence Collection",
+        desc: "Secure and analyze electronic evidence in compliance with legal standards.",
+      },
+      {
+        title: "Expert Witness Testimony",
+        desc: "Provide qualified cybersecurity experts for court proceedings and depositions.",
+      },
+      {
+        title: "Case Strategy Consultation",
+        desc: "Work with legal teams to develop cyber-related case strategies and interpretations.",
+      },
+      {
+        title: "Compliance & Regulatory Guidance",
+        desc: "Ensure cybersecurity aspects of litigation align with legal and industry regulations.",
+      },
+      {
+        title: "Incident & Breach Analysis",
+        desc: "Investigate security incidents to determine liability, causation, and impact.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1556244573-c3686c0f0e78?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "/services/digital-forensics-incident-response/malware-analysis-reverse-engineering",
+    main_title: "Malware Analysis & Reverse Engineering",
+    title: "Understand and Mitigate Cyber Threats with Malware Analysis",
+    desc: "Advanced cyber threats require in-depth analysis to prevent further damage. Our Malware Analysis & Reverse Engineering services dissect malicious code to understand its functionality, impact, and remediation strategies.",
+    title_2: "Our Malware Analysis Solutions",
+    desc_2:
+      "Uncover hidden threats with expert malware analysis and response capabilities.",
+    steps: [
+      {
+        title: "Behavioral Analysis",
+        desc: "Observe malware execution in controlled environments to understand its behavior.",
+      },
+      {
+        title: "Static Code Analysis",
+        desc: "Examine malware code structures to identify vulnerabilities and attack mechanisms.",
+      },
+      {
+        title: "Reverse Engineering",
+        desc: "Decompile and analyze malware to uncover its origins and objectives.",
+      },
+      {
+        title: "Threat Attribution",
+        desc: "Determine threat actors and potential targets based on malware characteristics.",
+      },
+      {
+        title: "Mitigation & Removal Strategies",
+        desc: "Develop actionable strategies to neutralize threats and strengthen defenses.",
+      },
+    ],
+  },
+  {
+    img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
+    path: "/services/digital-forensics-incident-response/cyber-risk-retainer",
+    main_title: "Cyber Risk Retainer Services",
+    title: "Proactive Cybersecurity Protection with a Cyber Risk Retainer",
+    desc: "A Cyber Risk Retainer provides priority access to security experts, ensuring rapid response and ongoing support for your cybersecurity needs.",
+    title_2: "Our Cyber Risk Retainer Solutions",
+    desc_2:
+      "Stay ahead of threats with on-demand cybersecurity expertise and proactive defense planning.",
+    steps: [
+      {
+        title: "Priority Incident Response",
+        desc: "Immediate access to cybersecurity experts for rapid threat mitigation.",
+      },
+      {
+        title: "Ongoing Risk Assessments",
+        desc: "Regular evaluations of your security posture to identify emerging risks.",
+      },
+    ],
+  },
 ];
 
 export default complete_services_data;

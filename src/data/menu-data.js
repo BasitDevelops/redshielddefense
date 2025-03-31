@@ -1,9 +1,36 @@
-import { MdOutlineScreenSearchDesktop } from "react-icons/md";
-import { TfiTarget } from "react-icons/tfi";
-import { FaNetworkWired, FaMixcloud, FaMobileAlt } from "react-icons/fa";
-import { TbWorldWww } from "react-icons/tb";
-import { GiMonoWheelRobot, GiTargeting } from "react-icons/gi";
-import { IoShareSocialOutline } from "react-icons/io5";
+import {
+  MdMiscellaneousServices,
+  MdOutlineScreenSearchDesktop,
+  MdOutlineSecurity,
+  MdRoute,
+} from "react-icons/md";
+import { TfiMicrosoft, TfiTarget } from "react-icons/tfi";
+import {
+  FaNetworkWired,
+  FaMixcloud,
+  FaMobileAlt,
+  FaConnectdevelop,
+} from "react-icons/fa";
+import { TbVirusSearch, TbWorldWww } from "react-icons/tb";
+import {
+  GiCrossedChains,
+  GiCyberEye,
+  GiMonoWheelRobot,
+  GiSpiderWeb,
+  GiTargeting,
+} from "react-icons/gi";
+import { IoApps, IoShareSocialOutline } from "react-icons/io5";
+import { SiCyberdefenders, SiSecurityscorecard } from "react-icons/si";
+import {
+  GrCompliance,
+  GrDocumentThreat,
+  GrPlan,
+  GrSupport,
+  GrTechnology,
+  GrVirtualMachine,
+} from "react-icons/gr";
+import { PiUsersThreeLight } from "react-icons/pi";
+import { ImNotification } from "react-icons/im";
 
 const menu_data = [
   {
@@ -33,42 +60,41 @@ const menu_data = [
     link: "#",
     sub_menus: [
       {
-        id: "va",
+        id: "V_A",
         link: "/services/vuln-assessment/network-vuln-assessment",
         title: "Vulnerabilty Assessment",
-        icon: <MdOutlineScreenSearchDesktop />,
         has_dropdown: true,
         sub_menus: [
           {
-            id: "va",
+            id: "V_A",
             link: "/services/vuln-assessment/network-vuln-assessment",
             title: "Network Vulnerability Assessment",
             desc: "Identify and analyze security weaknesses in a network to prevent potential threats.",
             icon: <FaNetworkWired />,
           },
           {
-            id: "va",
+            id: "V_A",
             link: "/services/vuln-assessment/web-application-vuln-assessment",
             title: "Web Application Vulnerability Assessment",
             desc: "Identify and analyze security flaws in a web app to prevent potential exploits.",
             icon: <TbWorldWww />,
           },
           {
-            id: "va",
+            id: "V_A",
             link: "/services/vuln-assessment/cloud-infrastructure-vuln-assessment",
             title: "Cloud Infrastructure Vulnerability Assessment",
             desc: "Identify and mitigate security risks in cloud environments to prevent breaches.",
             icon: <FaMixcloud />,
           },
           {
-            id: "va",
+            id: "V_A",
             link: "/services/vuln-assessment/mobile-application-vuln-assessment",
             title: "Mobile Application Vulnerability Assessment",
             desc: "Detect and analyze security flaws in mobile apps to prevent exploits.",
             icon: <FaMobileAlt />,
           },
           {
-            id: "va",
+            id: "V_A",
             link: "/services/vuln-assessment/iot-ot-vuln-assessment",
             title: "IoT & OT Vulnerability Assessment",
             desc: "Identify security risks in connected devices and operational technology.",
@@ -77,60 +103,230 @@ const menu_data = [
         ],
       },
       {
-        id: "ps",
+        id: "P_T",
         link: "/services/pen-testing-services/network-pen-testing",
         title: "Pentesting Services",
-        icon: <TfiTarget />,
         has_dropdown: true,
         sub_menus: [
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/network-pen-testing",
             title: "Network Penetration Testing",
             desc: "Simulate attacks to identify and exploit security weaknesses in a network.",
             icon: <FaNetworkWired />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/web-application-pen-testing",
             title: "Web Application Penetration Testing",
             desc: "Simulate attacks to find and exploit security flaws in web apps.",
             icon: <TbWorldWww />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/cloud-pen-testing",
             title: "Cloud Penetration Testing",
             desc: "Evaluate cloud security by simulating real-world cyber threats to uncover vulnerabilities.",
             icon: <FaMixcloud />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/mobile-application-pen-testing",
             title: "Mobile Application Penetration Testing",
             desc: "Mimic cyber threats to expose vulnerabilities in mobile apps and strengthen security.",
             icon: <FaMobileAlt />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/iot-ot-pen-testing",
             title: "IoT & OT Penetration Testing",
             desc: "Expose vulnerabilities in smart and industrial systems through cyber threat simulation.",
             icon: <GiMonoWheelRobot />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/social-engineering-pen-testing",
             title: "Social Engineering Penetration Testing",
             desc: "Simulate real-world manipulations to test employee security awareness.",
             icon: <IoShareSocialOutline />,
           },
           {
-            id: "ps",
+            id: "P_T",
             link: "/services/pen-testing-services/red-team-pen-testing",
             title: "Red Team Penetration Testing",
             desc: "Simulate cyberattacks to test an organization’s defense and resilience.",
             icon: <GiTargeting />,
+          },
+        ],
+      },
+      {
+        id: "A_S",
+        link: "/services/advisory-services/cyber-policy-review",
+        title: "Advisory Services",
+        has_dropdown: true,
+        sub_menus: [
+          {
+            id: "A_S",
+            link: "/services/advisory-services/cyber-policy-review",
+            title: "Cyber Policy Review",
+            desc: "Assess cybersecurity policies for compliance, effectiveness, and risk mitigation.",
+            icon: <GiCyberEye />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/cyber-due-dilligence",
+            title: "Cyber Due Diligence",
+            desc: "Evaluate cybersecurity risks and compliance before investments or partnerships.",
+            icon: <SiCyberdefenders />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/supply-chain-due-dilligence",
+            title: "Supply Chain Due Diligence",
+            desc: "Assess risks, compliance, and security in supplier networks.",
+            icon: <GiCrossedChains />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/compliance-advisory",
+            title: "Compliance Advisory",
+            desc: "Provide guidance on regulatory and policy adherence.",
+            icon: <GrCompliance />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/virtual-CISO",
+            title: "Virtual CISO",
+            desc: "Get outsourced cybersecurity leadership and strategy.",
+            icon: <GrVirtualMachine />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/DPO-services",
+            title: "DPO Services",
+            desc: "Ensure data protection compliance and governance.",
+            icon: <MdMiscellaneousServices />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/dark-web-monitoring",
+            title: "Dark Web Monitoring",
+            desc: "Track leaked data and cyber threats on the dark web.",
+            icon: <GiSpiderWeb />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/application-security",
+            title: "Application Security",
+            desc: "Protect software from threats and vulnerabilities.",
+            icon: <IoApps />,
+          },
+          {
+            id: "A_S",
+            link: "/services/advisory-services/threat-modelling",
+            title: "Threat Modelling",
+            desc: "Identify and mitigate potential security risks in systems.",
+            icon: <GrDocumentThreat />,
+          },
+        ],
+      },
+      {
+        id: "M_D_R",
+        link: "/services/managed-detection-response/RSD-responder-MDR",
+        title: "Managed Detection and Response",
+        has_dropdown: true,
+        sub_menus: [
+          {
+            id: "M_D_R",
+            link: "/services/managed-detection-response/RSD-responder-MDR",
+            title: "RSD Responder MDR",
+            desc: "Managed threat detection and response with expert analysis.",
+            icon: <MdRoute />,
+          },
+          {
+            id: "M_D_R",
+            link: "/services/managed-detection-response/MDR-for-microsoft",
+            title: "MDR for Microsoft",
+            desc: "Managed threat detection and response for Microsoft environments.",
+            icon: <TfiMicrosoft />,
+          },
+          {
+            id: "M_D_R",
+            link: "/services/managed-detection-response/managed-SIEM",
+            title: "Managed SIEM",
+            desc: "Managed SIEM monitors, detects, and responds to security threats in real time.",
+            icon: <MdOutlineSecurity />,
+          },
+          {
+            id: "M_D_R",
+            link: "/services/managed-detection-response/managed-EDR",
+            title: "Managed EDR",
+            desc: "Managed EDR provides continuous endpoint threat detection and response.",
+            icon: <FaConnectdevelop />,
+          },
+          {
+            id: "M_D_R",
+            link: "/services/managed-detection-response/managed-SOC",
+            title: "Managed SOC",
+            desc: "Managed SOC offers 24/7 threat monitoring, detection, and response.",
+            icon: <PiUsersThreeLight />,
+          },
+        ],
+      },
+      {
+        id: "D_F_I_R",
+        link: "/services/digital-forensics-incident-response/cyber-incident-response",
+        title: "Digital Forensics and Incident Response",
+        has_dropdown: true,
+        sub_menus: [
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/cyber-incident-response",
+            title: "Cyber Incident Response",
+            desc: "Cyber Incident Response mitigates and resolves security breaches efficiently.",
+            icon: <SiSecurityscorecard />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/incident-response-planning",
+            title: "Incident Response Planning",
+            desc: "Incident Response Planning prepares strategies to handle cyber incidents effectively.",
+            icon: <GrPlan />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/breach-notification",
+            title: "Breach Notification",
+            desc: "Breach Notification informs stakeholders of data breaches per legal requirements.",
+            icon: <ImNotification />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/digital-forensics",
+            title: "Digital Forensics",
+            desc: "Digital Forensics investigates cyber incidents by analyzing digital evidence.",
+            icon: <GrTechnology />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/litigation-support",
+            title: "Litigation Support",
+            desc: "Litigation Support provides digital evidence and analysis for legal cases.",
+            icon: <GrSupport />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/malware-analysis-reverse-engineering",
+            title: "Malware Analysis & Reverse Engineering",
+            desc: "Malware Analysis & Reverse Engineering examines malicious code to understand threats and develop defenses.",
+            icon: <TbVirusSearch />,
+          },
+          {
+            id: "D_F_I_R",
+            link: "/services/digital-forensics-incident-response/cyber-risk-retainer",
+            title: "Cyber Risk Retainer",
+            desc: "Cyber Risk Retainer provides proactive and on-demand cybersecurity incident response services.",
+            icon: <TfiTarget />,
           },
         ],
       },

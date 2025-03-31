@@ -645,16 +645,21 @@ label {
   z-index: 9;
 }
 
-/* @media (min-width: 991.98px) {
-  .sub-menu-container {
-    width: 85vw;
-  }
-}
 @media (min-width: 991.98px) {
   .sub-menu-container {
-    width: 85vw;
+    width: 792px;
   }
-} */
+}
+@media (min-width: 1199.98px) {
+  .sub-menu-container {
+    width: 959px;
+  }
+}
+@media (min-width: 1500px) {
+  .sub-menu-container {
+    width: 1200px;
+  }
+}
 
 .navbar-wrap ul li:hover > .sub-menu-container {
   opacity: 1;
@@ -2427,8 +2432,11 @@ label {
 
 .testimonial-two-area {
   background-color: transparent;
-  padding: 160px 0 0;
+  padding: 160px 0;
+  /* border-top: 1px solid rgba(254, 255, 254, 0.1); */
 }
+
+/* .testimonial-two-area > div {} */
 
 /* 18. FAQ Area */
 .faq-padding {
