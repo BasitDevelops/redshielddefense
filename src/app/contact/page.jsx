@@ -1,11 +1,15 @@
-import Contact from "@/components/contact"
+import Contact from "@/components/contact";
+
+export const metadata = {
+  title: "Contact Us",
+};
 
 const page = () => {
-    return (
-        <>
-            <Contact />
-        </>
-    )
-}
+  return (
+    <>
+      <Contact />
+    </>
+  );
+};
 
-export default page
+export default page;

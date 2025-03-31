@@ -3,7 +3,7 @@ import Breadcrumb from "@/common/breadcrumb";
 import ServicesDetailsContent from "./services-details-area";
 import Header from "@/layout/headers/header";
 import complete_services_data from "@/data/complete-services-data";
-import { usePathname } from "next/navigation";
+import { notFound, usePathname } from "next/navigation";
 
 const ServicesDetails = () => {
   const currentRoute = usePathname();
@@ -11,6 +11,10 @@ const ServicesDetails = () => {
   const service = complete_services_data.find(
     (service) => service.path === currentRoute
   );
+
+  if (!service) {
+    notFound();
+  }
 
   return (
     <>

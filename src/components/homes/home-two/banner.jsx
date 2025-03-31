@@ -82,9 +82,12 @@ const Banner = () => {
                 hackers.
               </h2>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                RED/SHIELD/DEFENSE provides expert penetration testing services
-                to identify and eliminate vulnerabilities in your systems,
-                ensuring your business remains secure.
+                RedShieldDefense offers expert penetration testing services to
+                uncover and remediate security vulnerabilities, protecting your
+                business from cyber threats, data breaches, and hacking
+                attempts. Our ethical hacking and security assessments ensure
+                your systems remain secure, compliant, and resilient against
+                evolving cyberattacks. 🚀
               </p>
               <Link
                 href="/contact"

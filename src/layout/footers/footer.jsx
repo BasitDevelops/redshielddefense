@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
         <div className="copyright-wrap">
           <p className="copyright-text">
-            Copyright ©2024 <span>RED/SHIELD/DEFENSE</span>. All rights reserved
+            Copyright ©2024 <span>RedShieldDefense</span>. All rights reserved
           </p>
         </div>
       </div>

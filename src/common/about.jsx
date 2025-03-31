@@ -1,27 +1,35 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const about_content = {
-  title: "Your Ultimate Partner for Advanced Web Application Security.",
+export const about_content = {
+  title: "Your Ultimate Partner for Advanced Cybersecurity Solutions.",
   des: (
     <>
-      At RedShield, we specialize in securing your web applications with
-      innovative solutions. In today's threat landscape, ensuring the protection
-      of your web infrastructure is crucial. Our tailored solutions shield your
-      applications from vulnerabilities, ensuring safety, compliance, and
-      resilience.
+      At RedShieldDefense, we provide cutting-edge cybersecurity solutions to
+      protect your web applications from cyber threats, data breaches, and
+      malware attacks.
+      <br />
+      In today's evolving threat landscape, securing your web infrastructure
+      against vulnerabilities, DDoS attacks, and zero-day exploits is more
+      critical than ever.
+      <br />
+      Our penetration testing, vulnerability management, and threat intelligence
+      services ensure your applications remain secure, compliant, and resilient
+      against hackers and cybersecurity risks.
     </>
   ),
   list: [
-    "Web Application Shielding",
-    "Comprehensive Vulnerability Management",
-    "Compliance Support",
-    "Performance Optimization",
-    "Managed Security Services",
+    "Web Application Security & Threat Protection",
+    "Advanced Vulnerability Assessment & Risk Management",
+    "Regulatory Compliance & Data Protection Solutions",
+    "Cybersecurity Performance Optimization & Secure Infrastructure",
+    "24/7 Managed Cybersecurity Services & Threat Monitoring",
   ],
   btn: "More About us",
 };
+
 const { title, des, list, btn } = about_content;
+
 const About = ({ style }) => {
   return (
     <section className={`${style ? "inner-about-padding" : "about-area"}`}>
