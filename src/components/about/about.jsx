@@ -13,8 +13,8 @@ const AboutMain = () => {
         <Breadcrumb title="About Us" sm_title="About Us" />
         <About style={true} />
         <Counter style={true} />
-        <Marquee />
-        <Testimonial />
+        {/* <Marquee /> */}
+        {/* <Testimonial /> */}
       </main>
     </>
   );
