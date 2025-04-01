@@ -22,15 +22,12 @@ const answer_question_data = [
   },
   {
     id: 3,
-    question:
-      "What types of Penetration Testing does RED/SHIELD/DEFENSE offer?",
-    answer: (
-      <>What types of Penetration Testing does RED/SHIELD/DEFENSE offer?</>
-    ),
+    question: "What types of Penetration Testing does RedShieldDefense offer?",
+    answer: <>What types of Penetration Testing does RedShieldDefense offer?</>,
   },
   {
     id: 4,
-    question: "How can I contact RED/SHIELD/DEFENSE?",
+    question: "How can I contact RedShieldDefense?",
     answer: (
       <>
         You can reach us through our Contact Us page for more details or to

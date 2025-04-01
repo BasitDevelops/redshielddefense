@@ -12,7 +12,7 @@ const Breadcrumb = ({ title, spyware, sm_title }) => {
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><Link href="/">Home</Link></li>
-                                    {spyware ? (<li className="breadcrumb-item"><Link href="/services">{sm_title}</Link></li>) :
+                                    {spyware ? (<li className="breadcrumb-item"><Link href="#">{sm_title}</Link></li>) :
                                         (<li className="breadcrumb-item active" aria-current="page">{sm_title}</li>)
                                     }
                                     {spyware && <li className="breadcrumb-item active" aria-current="page">{spyware}</li>}

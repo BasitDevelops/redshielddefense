@@ -51,25 +51,6 @@ const Header = ({ style }) => {
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
                       <NavMenu />
                     </div>
-                    {/* <div className="header-social">
-                      <ul>
-                        <li>
-                          <Link href="#">
-                            <i className="flaticon-facebook"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#">
-                            <i className="flaticon-twitter"></i>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="#">
-                            <i className="flaticon-linkedin"></i>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div> */}
                     {style && (
                       <div className="header-shop-cart-active header-cart">
                         <Link href="/shop-details" className="mini-cart-link">

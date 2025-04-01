@@ -8,7 +8,10 @@ const footer_data = [
     class: "column-2",
     links: [
       { list: "About us", link: "/about-us" },
-      { list: "Our Services", link: "/services" },
+      {
+        list: "Our Services",
+        link: "/services/vuln-assessment/network-vuln-assessment",
+      },
       { list: "Terms & Conditions", link: "/contact" },
       { list: "Privacy Policy", link: "/contact" },
       { list: "Contact Us", link: "/contact" },
@@ -19,10 +22,26 @@ const footer_data = [
     title: "Our Services",
     class: "column-3",
     links: [
-      { list: "Vulnerability Assessment", link: "/services-details" },
-      { list: "Penetration Testing", link: "/services-details" },
-      { list: "Fast Cloud Backup", link: "/services-details" },
-      { list: "Database Security", link: "/services-details" },
+      {
+        list: "Vulnerability Assessment",
+        link: "/services/vuln-assessment/network-vuln-assessment",
+      },
+      {
+        list: "Penetration Testing",
+        link: "/services/pen-testing-services/network-pen-testing",
+      },
+      {
+        list: "Advisory Services",
+        link: "/services/advisory-services/cyber-policy-review",
+      },
+      {
+        list: "Managed Detection and Response",
+        link: "/services/managed-detection-response/RSD-responder-MDR",
+      },
+      {
+        list: "Digital Forensics and Incident Response",
+        link: "/services/digital-forensics-incident-response/cyber-incident-response",
+      },
     ],
   },
 ];
@@ -41,7 +60,7 @@ const Footer = () => {
   return (
     <footer
       className="footer-area footer-bg"
-      // style={{ backgroundImage: `url(/assets/img/bg/footer_bg.jpg)` }}
+      style={{ backgroundImage: `url(/assets/img/bg/footer_bg.png)` }}
     >
       <div className="container">
         <div className="footer-top-wrap">

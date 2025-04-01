@@ -103,39 +103,6 @@ const NavMenu = ({ num = false }) => {
                     </ul>
                   </div>
                 </div>
-                // <ul className="sub-menu">
-                //   {menu.sub_menus.map((sub_m, i) => (
-                //     <li key={i}>
-                //       <Link
-                //         href={sub_m.link}
-                //         className={
-                //           sub_m.link && isSubMenuItemActive(sub_m.link)
-                //             ? "active"
-                //             : ""
-                //         }
-                //       >
-                //         {sub_m.title}
-                //       </Link>
-                //       {/* {sub_m?.has_dropdown && <ul className="inner-sub-menu">
-                //                                 {sub_m?.sub_menus?.map((sub_m, i) => (
-                //                                     <li key={i}>
-                //                                         <Link
-                //                                             href={sub_m.link}
-                //                                             className={
-                //                                                 sub_m.link && isSubMenuItemActive(sub_m.link)
-                //                                                     ? "active"
-                //                                                     : ""
-                //                                             }
-                //                                         >
-                //                                             {sub_m.title}
-                //                                         </Link>
-
-                //                                     </li>
-                //                                 ))}
-                //                             </ul>} */}
-                //     </li>
-                //   ))}
-                // </ul>
               )}
             </>
           )}

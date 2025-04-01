@@ -25,18 +25,13 @@ const ScrollToTop = () => {
 
   return (
     <>
-      {/* <!-- Scroll-top --> */}
-      {/* <div className= {`back-to-top-wrapper ${sticky ? "back-to-top-btn-show" : ""}`}> */}
       <button
         onClick={scrollTop}
-        className= {`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
-        // className="back-to-top-btn"
+        className={`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
         data-target="html"
       >
         <i className="fas fa-angle-up"></i>
       </button>
-      {/* </div> */}
-      {/* <!-- Scroll-top-end--> */}
     </>
   );
 };
