@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { MdChatBubbleOutline, MdMailOutline } from "react-icons/md";
 import { TbDeviceLandlinePhone } from "react-icons/tb";
@@ -68,10 +69,16 @@ const ContactArea = () => {
           </div>
         </div>
       </div>
-      <div
-        id="map"
-        style={{ backgroundImage: `url(assets/img/bg/map.jpg)` }}
-      ></div>
+      <div id="map">
+        <Image
+          src="/assets/img/bg/map.webp"
+          alt="Footer Background"
+          layout="fill"
+          objectFit="cover"
+          quality={90}
+          priority
+        />
+      </div>
       <div className="contact-form-wrap">
         <div className="container">
           <div className="row justify-content-center">
