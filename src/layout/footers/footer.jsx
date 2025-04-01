@@ -60,7 +60,7 @@ const Footer = () => {
   return (
     <footer
       className="footer-area footer-bg"
-      style={{ backgroundImage: `url(/assets/img/bg/footer_bg.png)` }}
+      style={{ backgroundImage: `url(/assets/img/bg/footer_bg.webp)` }}
     >
       <div className="container">
         <div className="footer-top-wrap">

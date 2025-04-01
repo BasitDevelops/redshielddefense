@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section
       className="banner-area banner-three-bg fix"
-      style={{ backgroundImage: `url("assets/img/banner/background.png")` }}
+      style={{ backgroundImage: `url("assets/img/banner/background.webp")` }}
     >
       <div className="container">
         <div className="row justify-content-center">
