@@ -5,14 +5,14 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <section className="banner-area banner-three-bg fix">
-      <Image
+      {/* <Image
         src="/assets/img/banner/background.webp"
         alt="Banner Background"
         layout="fill"
         objectFit="cover"
         quality={90}
         priority
-      />
+      /> */}
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-8 col-lg-10">
