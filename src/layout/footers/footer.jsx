@@ -60,14 +60,14 @@ const { number, email, des, icon } = footer_content;
 const Footer = () => {
   return (
     <footer className="footer-area footer-bg">
-      <Image
+      {/* <Image
         src="/assets/img/bg/footer_bg.webp"
         alt="Footer Background"
         layout="fill"
         objectFit="cover"
         quality={90}
         priority
-      />
+      /> */}
       <div className="container">
         <div className="footer-top-wrap">
           <div className="row justify-content-between">
