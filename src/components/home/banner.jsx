@@ -21,7 +21,7 @@ const Banner = () => {
                 We safeguard your <span>data</span> against cyber threats and
                 hackers.
               </h2>
-              <p>
+              <p className="wow fadeInUp" data-wow-delay=".4s">
                 RedShieldDefense offers expert penetration testing services to
                 uncover and remediate security vulnerabilities, protecting your
                 business from cyber threats, data breaches, and hacking
