@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const OffCanvas = ({ offcanvasOpen, setOffcanvasOpen }) => {
+const OffCanvas = ({ offCanvasOpen, setOffCanvasOpen }) => {
   return (
-    <div className={` ${offcanvasOpen ? "offcanvas-menu-visible" : ""}`}>
+    <div className={` ${offCanvasOpen ? "offcanvas-menu-visible" : ""}`}>
       <div className="offCanvas-wrap">
         <div
-          onClick={() => setOffcanvasOpen(false)}
+          onClick={() => setOffCanvasOpen(false)}
           className="offCanvas-toggle"
         >
           <Image

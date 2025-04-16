@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import NavMenu from "./nav-menu";
 import useSticky from "../../hooks/use-sticky";
 import Sidebar from "@/common/sidebar";
@@ -11,11 +11,29 @@ import img from "../../../public/assets/img/logo/logo.png";
 const Header = ({ style }) => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
-  const [offcanvasOpen, setOffcanvasOpen] = useState(false);
+  const [offCanvasOpen, setOffCanvasOpen] = useState(false);
+  const offCanvasRef = useRef(null);
 
+  const handleClickOutside = (event) => {
+    if (offCanvasRef.current && !offCanvasRef.current.contains(event.target)) {
+      setOffCanvasOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (offCanvasOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [offCanvasOpen]);
   return (
     <>
-      <header>
+      <header ref={offCanvasRef}>
         <div
           className={`menu-area transparent-header header-style-two " ${
             sticky
@@ -66,7 +84,7 @@ const Header = ({ style }) => {
                     )}
                     <div className="offcanvas-btn">
                       <button
-                        onClick={() => setOffcanvasOpen(true)}
+                        onClick={() => setOffCanvasOpen(true)}
                         className="btn-area"
                       >
                         <Image
@@ -88,8 +106,8 @@ const Header = ({ style }) => {
       </header>
       <Sidebar isActive={isActive} setIsActive={setIsActive} />
       <Offcanvas
-        offcanvasOpen={offcanvasOpen}
-        setOffcanvasOpen={setOffcanvasOpen}
+        offCanvasOpen={offCanvasOpen}
+        setOffCanvasOpen={setOffCanvasOpen}
       />
     </>
   );
