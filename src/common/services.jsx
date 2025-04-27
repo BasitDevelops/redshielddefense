@@ -21,7 +21,7 @@ const Services = ({ style, inner_style }) => {
               }`}
             >
               <h2 className="title">
-                We Offer Expert <br /> Security Solutions
+                Our Expert <br /> Cybersecurity Solutions
               </h2>
             </div>
             <div className="cards-container">

@@ -2,37 +2,32 @@ const service_data = [
   {
     id: 1,
     text: "Comprehensive Vulnerability Assessment",
-    desc: "RedShieldDefense provides in-depth vulnerability scanning to identify weaknesses in your systems before attackers can exploit them.",
+    desc: "Identify security weaknesses before attackers do. Our expert scans quickly and accurately reveal system vulnerabilities across your network and applications.",
   },
   {
     id: 2,
-    big_icon: "flaticon-cloud-computing",
     text: "Exploitation & Risk Assessment",
-    desc: "We perform controlled exploitation of vulnerabilities to assess their impact, providing actionable insights to mitigate risks.",
+    desc: "We ethically exploit vulnerabilities to assess real-world impact and deliver prioritized, actionable recommendations to close security gaps.",
   },
   {
     id: 3,
-    big_icon: "flaticon-hosting",
-    text: "Detailed Reporting & Recommendations",
-    desc: "Our detailed penetration testing reports include clear findings and actionable recommendations for improving your security posture.",
+    text: "Detailed Reporting & Strategic Recommendations",
+    desc: "Receive crystal-clear reports with risk ratings, proof of concepts, and remediation guidance tailored to your business needs.",
   },
   {
     id: 4,
-    big_icon: "flaticon-credit-card",
     text: "Network & Web Application Testing",
-    desc: "We offer comprehensive testing for both network infrastructures and web applications to identify and fix vulnerabilities.",
+    desc: "Our penetration testing services uncover hidden threats in your infrastructure and web applications, fortifying your digital frontlines.",
   },
   {
     id: 5,
-    big_icon: "flaticon-concept",
-    text: "Phishing Simulation",
-    desc: "Our phishing simulation services help test your team's response to social engineering attacks, ensuring preparedness.",
+    text: "Phishing Simulation Services",
+    desc: "Simulate social engineering attacks to evaluate your team’s response and readiness. Prepare your workforce to recognize and resist phishing threats.",
   },
   {
     id: 6,
-    big_icon: "flaticon-brain",
     text: "Post-Engagement Support",
-    desc: "We provide ongoing support after penetration testing to ensure the issues are addressed and your environment remains secure.",
+    desc: "Cybersecurity is not a one-time service. We remain with you post-engagement to help remediate vulnerabilities and strengthen your long-term security posture.",
   },
 ];
 

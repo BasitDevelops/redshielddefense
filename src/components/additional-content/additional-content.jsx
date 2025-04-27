@@ -1,23 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import hacker_figure from "../../../public/assets/img/others/hacker_figure.png";
 
 const AdditionalContent = () => {
   const additional_content = [
     {
-      img: "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "Global Cybersecurity Protection",
-      desc: "Cyber threats operate on a global scale, targeting businesses of all sizes. Our state-of-the-art cybersecurity solutions provide 24/7 protection, leveraging AI-driven threat detection, advanced encryption, and real-time monitoring to keep your data, systems, and operations secure. Whether you're a startup or a global enterprise, our security framework adapts to your needs—because in today's digital world, safety should have no boundaries.",
+      img: "https://cdn.pixabay.com/photo/2017/12/28/08/39/binary-3044661_960_720.jpg",
+      title: "Global Cybersecurity Solutions",
+      alt: "Digital globe surrounded by binary code, showing data networks. Global cybersecurity solutions",
+      desc: "Cyber threats never rest, and neither do we. Whether you’re a rapidly growing startup or a global enterprise, our cybersecurity solutions provide seamless, round-the-clock protection through a powerful blend of AI, automation, and human expertise. Through threat detection, identity and access management services, and penetration testing, we assist businesses in building cyber resilience in this fast-paced computing age.",
     },
     {
-      img: "https://cdn.pixabay.com/photo/2023/11/05/02/07/ai-generated-8366100_640.jpg",
-      title: "Stay One Step Ahead",
-      desc: "Every 39 seconds, a cyberattack occurs. Hackers exploit vulnerabilities through phishing, malware, and ransomware, costing businesses billions. Our cybersecurity experts anticipate and neutralize threats before they strike, using proactive monitoring, ethical hacking simulations, and AI-powered defense mechanisms. Don’t wait for a breach to take action—fortify your digital infrastructure now and keep your business ahead of the attackers.",
+      img: hacker_figure,
+      title: "Stay One Step Ahead of Modern Threats",
+      alt: "Hacker figure facing red code wall. Protect your data with an advanced penetration testing service",
+      desc: "Every 39 seconds, a cyberattack occurs, impacting businesses across industries. Our experts combine AI-driven detection, real-time monitoring, and continuous threat hunting to identify and neutralize risks before they can cause harm. We expose vulnerabilities across your network, applications, and infrastructure to deliver comprehensive insights and clear, actionable steps to keep your operations secure.",
     },
     {
-      img: "https://cdn.pixabay.com/photo/2022/06/16/09/09/humanoid-7265468_640.jpg",
-      title: "The Future of Secure Authentication",
-      desc: "Traditional passwords are no longer enough to safeguard sensitive data. With cyber threats evolving, authentication methods must advance. Our biometric authentication, AI-driven access controls, and multi-layered encryption redefine digital security, ensuring only authorized personnel can access critical systems. Reduce fraud, eliminate weak passwords, and future-proof your security with our next-gen identity protection solutions.",
+      img: "https://images.pexels.com/photos/5474291/pexels-photo-5474291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      title: "Future-Proof Identity and Access Management",
+      alt: "Secure key and USB symbolizing security through smart identity and access management solutions.",
+      desc: "Secure, frictionless access is the cornerstone of modern cybersecurity. Our intelligent identity and access management solutions unify secure single sign-on, adaptive multi-factor authentication, and behavior analytics to ensure only the right users access your resources. Harmonize efficiency and compliance throughout your enterprise and give IT teams complete control over human and machine identities.",
     },
   ];
   return (

@@ -2,22 +2,14 @@ import Image from "next/image";
 
 const about_content = {
   about_img:
-    "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGN5YmVyJTIwc2VjdXJpdHklMjB0ZWFtfGVufDB8fDB8fHwy",
-  title: "Advanced Cyber Security Operation Center",
-  des: (
-    <>
-      Our Advanced Cyber Security Operations Center is designed to provide
-      real-time monitoring, threat detection, and rapid response to safeguard
-      your systems from emerging cyber threats. With cutting-edge technology and
-      expert teams, we ensure your digital assets are always protected.
-    </>
-  ),
+    "https://cdn.pixabay.com/photo/2018/08/07/11/54/internet-3589684_1280.jpg",
+  title: "Advanced Cybersecurity Operations Center (CSOC)",
+  des: "Our Advanced Cyber Security Operations Center (CSOC) is your cyber resilience command center. Backed by cutting-edge technology and a team of certified experts, it delivers continuous monitoring, immediate threat detection, and proactive responses. Our center guarantees that your digital environment remains secure, compliant, and ready for the future with:",
   about_list: [
     "Vulnerability Assessments & Penetration Testing",
-    "Controlled Exploitation for Risk Assessment",
     "Network and Web Application Testing",
-    "Phishing Simulation Services",
     "Controlled Exploitation for Risk Assessment",
+    "Phishing Simulation Services",
     "Clear, Actionable Reporting",
   ],
 };
