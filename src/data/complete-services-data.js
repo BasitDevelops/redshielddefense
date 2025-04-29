@@ -2515,6 +2515,20 @@ const complete_services_data = [
         desc: "Oversee the response to data breaches, including notification to authorities and affected individuals, and implement corrective measures.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2547,6 +2561,20 @@ const complete_services_data = [
         desc: "Provide guidance and support to address identified vulnerabilities and strengthen your organization's overall security posture.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1617777934845-a818fd6e1bcb?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2579,6 +2607,20 @@ const complete_services_data = [
         desc: "Ensure your applications meet regulatory requirements and manage risks effectively to protect sensitive data.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2612,6 +2654,20 @@ const complete_services_data = [
         desc: "Implement ongoing monitoring to detect new threats and ensure that mitigation strategies remain effective over time.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   // Managed Detection and Response
   {
@@ -2645,6 +2701,20 @@ const complete_services_data = [
         desc: "Providing comprehensive reports on incidents and actionable recommendations to strengthen your security posture.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2677,6 +2747,20 @@ const complete_services_data = [
         desc: "Evaluating your Microsoft setups to ensure compliance with industry standards and regulations.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2709,6 +2793,20 @@ const complete_services_data = [
         desc: "Regularly updating and refining SIEM configurations to adapt to evolving threats and business needs.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2741,6 +2839,20 @@ const complete_services_data = [
         desc: "Delivering comprehensive reports on detected incidents and remediation actions taken.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2773,6 +2885,20 @@ const complete_services_data = [
         desc: "Ensure adherence to industry regulations and standards by providing detailed reports and insights into your organization's security status.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   // Digital Forensics and Incident Response
   {
@@ -2807,6 +2933,20 @@ const complete_services_data = [
         desc: "Develop and refine incident response plans tailored to your organization's specific needs and threat landscape.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2840,6 +2980,20 @@ const complete_services_data = [
         desc: "Continuously update response strategies based on real-world incidents and evolving threats.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2873,6 +3027,20 @@ const complete_services_data = [
         desc: "Provide ongoing monitoring and remediation support to prevent future incidents.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2905,6 +3073,20 @@ const complete_services_data = [
         desc: "Provide actionable insights to prevent recurrence and strengthen security defenses.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2937,6 +3119,20 @@ const complete_services_data = [
         desc: "Investigate security incidents to determine liability, causation, and impact.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1556244573-c3686c0f0e78?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -2969,6 +3165,20 @@ const complete_services_data = [
         desc: "Develop actionable strategies to neutralize threats and strengthen defenses.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
   {
     img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1000&h=700&fit=crop&q=80&ixlib=rb-4.0.3",
@@ -2989,6 +3199,20 @@ const complete_services_data = [
         desc: "Regular evaluations of your security posture to identify emerging risks.",
       },
     ],
+    metadata: {
+      title: "Cybersecurity Compliance Advisory Services",
+      desc: "Simplify regulatory complexity with expert compliance advisory services. Align with GDPR, HIPAA, ISO, and more, confidently and efficiently.",
+      keywords: [
+        "compliance advisory services",
+        "cybersecurity compliance advisory",
+        "regulatory compliance consulting",
+        "risk and compliance management",
+        "GDPR compliance solutions",
+        "NIST compliance advisory",
+        "PCI DSS assessment support",
+        "third-party compliance consulting",
+      ],
+    },
   },
 ];
 

@@ -4,7 +4,7 @@ import complete_services_data from "@/data/complete-services-data";
 export async function generateMetadata({ params }) {
   const p = await params;
 
-  const post = complete_services_data.find(
+  const post = complete_services_data?.find(
     (service) => service?.path === `/services/${p?.serviceType}/${p?.serviceId}`
   );
 
@@ -24,9 +24,9 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  return complete_services_data.map((service) => ({
-    serviceType: service.path.split("/")[2],
-    serviceId: service.path.split("/")[3],
+  return complete_services_data?.map((service) => ({
+    serviceType: service?.path?.split("/")[2],
+    serviceId: service?.path?.split("/")[3],
   }));
 }
 
