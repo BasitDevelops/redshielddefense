@@ -5,7 +5,6 @@ const nextConfig = {
       "images.unsplash.com",
       "pixabay.com",
       "cdn.pixabay.com",
-      // "flic.kr",
       "images.pexels.com",
     ],
   },
