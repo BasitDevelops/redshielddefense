@@ -2,20 +2,21 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const about_content = {
-  title: "Your Ultimate Partner for Advanced Cybersecurity Solutions.",
+  title: "Your Trusted Partner in Cybersecurity Defense",
   des: (
     <>
-      At RedShieldDefense, we provide cutting-edge cybersecurity solutions to
-      protect your web applications from cyber threats, data breaches, and
-      malware attacks.
+      At RedShieldDefense, we work as an embedded extension of your security
+      team, committed to helping you outpace and outsmart cyber adversaries.
+      With a proactive, threat-informed approach and a deep understanding of
+      attacker tactics, we empower organizations to strengthen their defenses,
+      reduce risk, and rapidly respond to evolving threats.
       <br />
-      In today's evolving threat landscape, securing your web infrastructure
-      against vulnerabilities, DDoS attacks, and zero-day exploits is more
-      critical than ever.
       <br />
-      Our penetration testing, vulnerability management, and threat intelligence
-      services ensure your applications remain secure, compliant, and resilient
-      against hackers and cybersecurity risks.
+      Our award-winning cybersecurity solutions are engineered to deliver
+      measurable outcomes across detection, response, and resilience. Whether
+      protecting critical infrastructure, securing digital assets, or enhancing
+      compliance readiness, RedShieldDefense is your go-to partner for advanced,
+      adaptive cyber defense.
     </>
   ),
   list: [
@@ -38,10 +39,10 @@ const About = ({ style }) => {
           <div className="col-lg-6">
             <div className="about-img">
               <Image
-                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.pexels.com/photos/5439476/pexels-photo-5439476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 width={705}
                 height={567}
-                alt="theme-pure"
+                alt="Cybersecurity professionals who use red team VAPT techniques for identifying vulnerabilities posing."
               />
             </div>
           </div>

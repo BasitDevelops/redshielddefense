@@ -5,19 +5,20 @@ export async function generateMetadata({ params }) {
   const p = await params;
 
   const post = complete_services_data.find(
-    (service) => service.path === `/services/${p.serviceType}/${p.serviceId}`
+    (service) => service?.path === `/services/${p?.serviceType}/${p?.serviceId}`
   );
 
   return post
     ? {
-        title: post.main_title,
-        description: post.desc,
+        title: post?.metadata?.title,
+        description: post?.metadata.desc,
         openGraph: {
-          title: post.main_title,
-          description: post.desc,
-          url: `https://redshielddefense.vercel.app${post.path}`,
-          images: [{ url: post.img }],
+          title: post?.metadata?.title,
+          description: post?.metadata?.desc,
+          url: `https://redshielddefense.vercel.app${post?.path}`,
+          images: [{ url: post?.img }],
         },
+        keywords: post?.metadata?.keywords,
       }
     : { title: "Post Not Found", description: "No content available." };
 }

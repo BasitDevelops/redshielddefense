@@ -19,7 +19,7 @@ const Testimonial = ({ style }) => {
       className={`${style ? "testimonial-area " : "testimonial-two-area"}`}
     >
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mission">
           {/* <div className="section-title text-center text-xl-start mb-40">
             <h2 className="title">
               Testimonies From <br />Clients

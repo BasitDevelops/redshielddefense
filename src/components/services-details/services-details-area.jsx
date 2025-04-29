@@ -1,4 +1,5 @@
 "use client";
+import FAQ from "@/common/faq";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -172,7 +173,31 @@ const sidebar_lists = [
   },
 ];
 
-const ServicesDetailsArea = ({ img, title, desc, title_2, desc_2, steps }) => {
+const ServicesDetailsArea = ({
+  img,
+  img_alt,
+  title,
+  desc,
+  title_2,
+  desc_2,
+  title_3,
+  desc_3,
+  steps,
+  list,
+  desc_3_2,
+  title_4,
+  img_2,
+  img_2_alt,
+  desc_4,
+  list_2,
+  desc_5,
+  list_3,
+  title_6,
+  desc_6,
+  title_7,
+  desc_7,
+  faqs,
+}) => {
   const currentRoute = usePathname();
   return (
     <section className="services-details-area">
@@ -181,7 +206,7 @@ const ServicesDetailsArea = ({ img, title, desc, title_2, desc_2, steps }) => {
           <div className="col-lg-8">
             <div className="services-details-wrap">
               <div className="services-details-thumb">
-                <Image src={img} width={950} height={599} alt="img" />
+                <Image src={img} width={950} height={599} alt={img_alt} />
               </div>
               <div className="services-details-content">
                 <h2 className="title">{title}</h2>
@@ -198,11 +223,35 @@ const ServicesDetailsArea = ({ img, title, desc, title_2, desc_2, steps }) => {
                     </div>
                   ))}
                 </div>
-                {/* <ul className="about-list">
-                  {about_list.map((li, index) => (
+                <h4 className="services-content-title">{title_3}</h4>
+                <p>{desc_3}</p>
+                <ul className="about-list">
+                  {list?.map((li, index) => (
                     <li key={index}>{li}</li>
                   ))}
-                </ul> */}
+                </ul>
+                <p className="desc_3_2">{desc_3_2}</p>
+                <h4 className="services-content-title">{title_4}</h4>
+                <div className="services-details-thumb">
+                  <Image src={img_2} width={950} height={599} alt={img_2_alt} />
+                </div>
+                <p className="desc_3_2">{desc_4}</p>
+                <ul className="about-list">
+                  {list_2?.map((li, index) => (
+                    <li key={index}>{li}</li>
+                  ))}
+                </ul>
+                <p className="desc_3_2">{desc_5}</p>
+                <ul className="about-list">
+                  {list_3?.map((li, index) => (
+                    <li key={index}>{li}</li>
+                  ))}
+                </ul>
+                <h4 className="services-content-title">{title_6}</h4>
+                <p>{desc_6}</p>
+                <h4 className="services-content-title">{title_7}</h4>
+                <p>{desc_7}</p>
+                <FAQ data={faqs} />
               </div>
             </div>
           </div>

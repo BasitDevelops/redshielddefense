@@ -1568,6 +1568,42 @@ label {
   padding: 50px 0 0;
 }
 
+/*  */
+.mission,
+.approach {
+  margin-bottom: 6rem;
+  border-top: 1px solid #441919;
+  padding-top: 2rem;
+}
+
+.approach .about-list {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.approach .about-list li {
+  display: flex;
+  width: 700px;
+}
+
+.approach .about-list li::before,
+.services-details-area .about-list li::before {
+  content: "\f192";
+  display: block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  color: #f9c747;
+  line-height: 1;
+  margin: 0 15px 0 0;
+}
+
+.services-details-content > .desc_3_2 {
+  margin-top: 2rem !important;
+}
+/*  */
+
 /* 10. Security */
 .about-area.security-area {
   padding: 140px 0px 145px;
@@ -2195,7 +2231,7 @@ label {
 
 .testimonial-two-area {
   background-color: transparent;
-  padding: 160px 0;
+  padding: 0px 0;
 }
 
 /* 18. FAQ Area */
