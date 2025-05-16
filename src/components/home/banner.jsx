@@ -17,10 +17,10 @@ const Banner = () => {
         <div className="row justify-content-center">
           <div className="col-xl-8 col-lg-10">
             <div className="banner-three-content text-center">
-              <h2 className="heading wow fadeInUp" data-wow-delay=".2s">
+              <h1 className="heading wow fadeInUp" data-wow-delay=".2s">
                 Proactive Cybersecurity Solutions to Shield Your{" "}
                 <span>Data</span> Against Cyber Threats
-              </h2>
+              </h1>
               <p className="wow fadeInUp" data-wow-delay=".4s">
                 Our expert penetration testing identifies critical
                 vulnerabilities before attackers can exploit them. We deliver

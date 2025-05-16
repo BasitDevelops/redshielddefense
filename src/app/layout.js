@@ -39,7 +39,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>RedShieldDefense</title>
         <link
           rel="icon"
           href="../../public/assets/img/logo/logo.png"
