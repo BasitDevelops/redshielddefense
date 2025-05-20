@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import img from "../../../public/assets/img/logo/logo.png";
 
 const footer_data = [
   {
@@ -45,6 +46,41 @@ const footer_data = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "Pentesting Services",
+    class: "column-4",
+    links: [
+      {
+        link: "/services/pen-testing-services/network-pen-testing",
+        list: "Network Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/web-application-pen-testing",
+        list: "Web Application Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/cloud-pen-testing",
+        list: "Cloud Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/mobile-application-pen-testing",
+        list: "Mobile Application Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/iot-ot-pen-testing",
+        list: "IoT & OT Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/social-engineering-pen-testing",
+        list: "Social Engineering Pentesting",
+      },
+      {
+        link: "/services/pen-testing-services/red-team-pen-testing",
+        list: "Red Team Pentesting",
+      },
+    ],
+  },
 ];
 const footer_content = {
   number: "+358 44 5040308",
@@ -60,23 +96,26 @@ const { number, email, des, icon } = footer_content;
 const Footer = () => {
   return (
     <footer className="footer-area footer-bg">
-      {/* <Image
-        src="/assets/img/bg/footer_bg.webp"
-        alt="Footer Background"
-        layout="fill"
-        objectFit="cover"
-        quality={90}
-        priority
-      /> */}
       <div className="container">
         <div className="footer-top-wrap">
           <div className="row justify-content-between">
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-contact-info">
-                  <h4 className="number">{number}</h4>
-                  <h4 className="email">{email} </h4>
-                  <p>{des}</p>
+                  {/* <h4 className="number">{number}</h4> */}
+                  <div className="logo">
+                      <Link href="/" className="logo-adjust">
+                        <Image
+                          src={img}
+                          width={65}
+                          height="auto"
+                          alt="Logo"
+                          layout="intrinsic"
+                        />
+                      </Link>
+                    </div>
+                  <h4 className="email mt-4">{email} </h4>
+                  {/* <p>{des}</p> */}
                   <ul className="footer-social list-wrap">
                     {icon.map((li, i) => (
                       <li key={i}>
@@ -106,7 +145,7 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <div className="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-7">
+            {/* <div className="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-7">
               <div className="footer-widget">
                 <form
                   onSubmit={(e) => e.preventDefault()}
@@ -127,7 +166,7 @@ const Footer = () => {
                   </p>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyright-wrap">

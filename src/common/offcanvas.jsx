@@ -31,9 +31,9 @@ const OffCanvas = ({ offCanvasOpen, setOffCanvasOpen }) => {
           <div className="offcanvas-contact footer-contact-info">
             <h4 className="number">+358 44 5040308</h4>
             <h4 className="email">contact@redshielddefense.com</h4>
-            <p>
+            {/* <p>
               3828 Delmas Terrace, Culver City, <br /> CA, United States
-            </p>
+            </p> */}
             <ul className="footer-social list-wrap">
               <li>
                 <Link href="#">
