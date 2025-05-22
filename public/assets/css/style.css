@@ -2421,7 +2421,7 @@ label {
   color: #fefffe;
   padding: 0 35px 13px;
   border: none;
-  border-bottom: 1px solid #441919;
+  border-bottom: 1px solid rgba(205, 54, 87, 0.5);
   width: 100%;
 }
 

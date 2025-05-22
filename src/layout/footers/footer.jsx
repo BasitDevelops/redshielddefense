@@ -83,16 +83,9 @@ const footer_data = [
   },
 ];
 const footer_content = {
-  number: "+358 44 5040308",
   email: "contact@redshielddefense.com",
-  des: (
-    <>
-      3828 Delmas Terrace, Culver City, <br /> CA, United States
-    </>
-  ),
-  icon: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram"],
 };
-const { number, email, des, icon } = footer_content;
+const { email } = footer_content;
 const Footer = () => {
   return (
     <footer className="footer-area footer-bg">
@@ -102,29 +95,18 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-contact-info">
-                  {/* <h4 className="number">{number}</h4> */}
                   <div className="logo">
-                      <Link href="/" className="logo-adjust">
-                        <Image
-                          src={img}
-                          width={65}
-                          height="auto"
-                          alt="Logo"
-                          layout="intrinsic"
-                        />
-                      </Link>
-                    </div>
+                    <Link href="/" className="logo-adjust">
+                      <Image
+                        src={img}
+                        width={65}
+                        height="auto"
+                        alt="Logo"
+                        layout="intrinsic"
+                      />
+                    </Link>
+                  </div>
                   <h4 className="email mt-4">{email} </h4>
-                  {/* <p>{des}</p> */}
-                  <ul className="footer-social list-wrap">
-                    {icon.map((li, i) => (
-                      <li key={i}>
-                        <Link href="#">
-                          <i className={li}></i>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>
@@ -145,28 +127,6 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            {/* <div className="col-xxl-4 col-xl-3 col-lg-4 col-md-6 col-sm-7">
-              <div className="footer-widget">
-                <form
-                  onSubmit={(e) => e.preventDefault()}
-                  className="newsletter-form"
-                >
-                  <div className="form-grp">
-                    <input
-                      type="email"
-                      required
-                      placeholder="Your email address"
-                    />
-                  </div>
-                  <button type="submit" className="btn">
-                    Subscribe now <span className="shape"></span>
-                  </button>
-                  <p className="newsletter-alert">
-                    <span>*</span> Don&apos;t worry, we don&apos;t spam
-                  </p>
-                </form>
-              </div>
-            </div> */}
           </div>
         </div>
         <div className="copyright-wrap">

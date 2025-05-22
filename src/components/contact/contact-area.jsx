@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { MdChatBubbleOutline, MdMailOutline } from "react-icons/md";
 import { TbDeviceLandlinePhone } from "react-icons/tb";
@@ -7,18 +6,6 @@ import { TbDeviceLandlinePhone } from "react-icons/tb";
 const contact_data = [
   {
     id: 1,
-    icon: <MdChatBubbleOutline />,
-    title: "Chat With Us",
-    des: (
-      <>
-        We&apos;ve got live Social Experts waiting to help you monday to friday
-        from 9am to 5pm EST.
-      </>
-    ),
-    btn: "Chat with us",
-  },
-  {
-    id: 2,
     icon: <MdMailOutline />,
     title: "Send Us an Email",
     des: (
@@ -30,7 +17,7 @@ const contact_data = [
     btn: "Email Us",
   },
   {
-    id: 3,
+    id: 2,
     icon: <TbDeviceLandlinePhone />,
     title: "Make a Call",
     des: (
@@ -68,16 +55,6 @@ const ContactArea = () => {
             ))}
           </div>
         </div>
-      </div>
-      <div id="map">
-        <Image
-          src="/assets/img/bg/map.webp"
-          alt="Footer Background"
-          layout="fill"
-          objectFit="cover"
-          quality={90}
-          priority
-        />
       </div>
       <div className="contact-form-wrap">
         <div className="container">
