@@ -4,6 +4,7 @@ import { MdChatBubbleOutline, MdMailOutline } from "react-icons/md";
 import { TbDeviceLandlinePhone } from "react-icons/tb";
 
 const contact_data = [
+  
   {
     id: 1,
     icon: <MdMailOutline />,
