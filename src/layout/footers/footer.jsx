@@ -14,8 +14,6 @@ const footer_data = [
         list: "Our Services",
         link: "/services/vuln-assessment/network-vuln-assessment",
       },
-      { list: "Terms & Conditions", link: "/contact" },
-      { list: "Privacy Policy", link: "/contact" },
       { list: "Contact Us", link: "/contact" },
     ],
   },
